@@ -1,30 +1,41 @@
 import Header from './components/Header'
-
-// function App() {
-//   const name = 'Harj'
-//   const x = false
-//   return (
-//     <div className='App'>
-//       <h1>Hello From React</h1>
-//       <h1>Hello {name}</h1>
-//       <h1>{x ? 'Yes' : 'No'}</h1>
-//     </div>
-//   );
-// }
-
-// class App extends React.Component {
-//   render() {
-//     return <h1>Hello from a class.</h1>
-//   }
-// }
-
+import Tasks from './components/Tasks'
+import { useState } from 'react'
 
 const App = () => {
+
+  const [tasks, setTasks] = useState([
+    {
+        id: 1,
+        text: 'Doctors appointment',
+        day: 'Feb 5th at 2:30pm',
+        reminder: 'true',
+    },
+    {
+        id: 2,
+        text: 'Meeting at school',
+        day: 'Feb 6th at 1:30pm',
+        reminder: 'true',
+    },
+    {
+        id: 3,
+        text: 'Food shopping',
+        day: 'Feb 7th at 5:30pm',
+        reminder: 'true',
+    },
+  ])
+
+
+  // Delete task
+  const deleteTask = (id) => {
+    setTasks(tasks.filter((task) => task.id !== id))
+  }
+
+
   return (
     <div className='container'>
-      <Header 
-      // title={}
-      />
+      <Header />
+      {tasks.length > 0 ? (<Tasks tasks={tasks} onDelete={deleteTask} />) : ('No Tasks To Show') }
     </div>
   )
 }
