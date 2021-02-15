@@ -1,0 +1,40 @@
+React JS Crash Course 2021 - Traversy Media - Notes
+
+
+INTRO
+    1:00 What is React
+    - SPA single page app
+    - Can be made a full stack app with MERN stack
+    - React is a library more than a framework
+
+    3:40 Why use React?
+    - Components hold state and data, each is dynamic
+    - Huge in industry, easier to work on it with teams
+    - Good performance and good debugging
+
+    6:10 What to know first?
+    - Async code, promises
+    - Array methods in js
+    - Fetch API, HTTP requests
+
+    8:50 Components vs Classes
+    - Components made with classes or functions
+    - Focus is on function comps with hooks
+
+    10:10 working with state
+    - Obj that determines how a comp behaves and renders
+    - App or global state available to whole UI
+
+    11:30 React Hooks
+    - functions that let you hook into states of components
+
+
+CREATE REACT APP
+    - JSX - Class = className
+        - for becomes htmlFor
+    - component return has to be one element, such as a div with everything in it.
+    - to use a component you must import react
+    - state gets passed down, actions get passed up
+    - mock node server called "json server"
+    - import useEffect deals with side effects like when the page loads
+    - when using Route, make sure to use "Link" and "to" instead of "<a>" and "href".
