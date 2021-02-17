@@ -1,0 +1,2 @@
+- always import react when creating a new component
+- JSX is html created by js
