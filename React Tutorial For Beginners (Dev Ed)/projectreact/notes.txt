@@ -1,2 +1,6 @@
 - always import react when creating a new component
 - JSX is html created by js
+- useState
+    - const [isRed, setRed] = useState(false)
+        - isRed is state name
+        - setRed is function that changes isRed value
