@@ -1,0 +1,7 @@
+- JSX is not a templating language.
+- map keys only need to be unique in each list, not the whole app.
+    - { this.state.tags.map(tag => <li key={tag}>{tag}</li>) }
+- true && 'hi' && 1 will return 1 becase it's the last operand
+- using an arrow function doesn't rebind 'this', they inherit it
+    - cleaner and more efficient
+    - better than making a constructor and and super call to rebind each even handler manually
