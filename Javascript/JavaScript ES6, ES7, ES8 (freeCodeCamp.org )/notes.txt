@@ -1,0 +1,5 @@
+2. Template Literals
+- ` key
+
+4. destructuring arrays
+- basically creating a pointer element to destructure arrays
