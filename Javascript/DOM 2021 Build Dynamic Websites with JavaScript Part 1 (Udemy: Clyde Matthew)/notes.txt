@@ -1,0 +1,22 @@
+Section 1: Introduction
+    3.
+    - everything in the browswer is an object
+    - "Document object" has properties and methods. easily accessible
+
+Section 2: Bonus Section - JavaScript vs DOM
+
+
+Section 3: Accessing the DOM
+
+
+Section 4: Nodes
+
+
+Section 5: Traversing the DOM
+
+
+Section 6: Creating, Removing and Cloning DOM Elements
+
+
+Section 7: Where to next?
+
