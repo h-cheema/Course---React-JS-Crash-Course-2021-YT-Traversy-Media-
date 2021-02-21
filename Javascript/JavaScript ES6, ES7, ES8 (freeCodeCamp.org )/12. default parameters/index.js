@@ -1,8 +1,11 @@
-function add(...nums) {
+function add(numArray = []) { // undefined numArray when called = empty array
 
-    let total = nums.reduce((x, y) => x+y)
+    let total = 0;;
+    numArray.forEach((element) => {
+        total += element;
+    });
 
     console.log(total);
 }
 
-add(4, 5, 6, 7, 8, 12);
+add();

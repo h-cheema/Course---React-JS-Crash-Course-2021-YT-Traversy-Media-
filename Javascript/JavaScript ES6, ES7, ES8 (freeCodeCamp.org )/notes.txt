@@ -8,5 +8,30 @@
 - an iterable is a data structure like a linked list or array that can be iterated through.
 - not really suppoed to be used to modify the values being iterated over
 
-9. spread operator
-- 
+14. let and var
+- let is a more strict version of var
+    - uses block scope
+- const are readonly
+    - can add to arrays and obs but not override data types
+- cannot change prims and bools at all
+
+15. imports and exports
+- export data and import in another application
+
+16. padStart() and padEnd()
+- way to add values to start or end depending on how long the string is.
+
+17. classes
+- function declaration doesn't need "function" keyword
+- "export class Animal{}" - exports the class.
+
+18. trailing commas
+- mainly just to solve tiny little errors. not many uses for it.
+
+19. async and await
+- "async function"
+
+20. sets
+- like mathematical sets.
+- "exampleSet.delete(5) from a Set([1,1,1,1,2,2,2,2])" will returna bool.
+- sets are iterable
