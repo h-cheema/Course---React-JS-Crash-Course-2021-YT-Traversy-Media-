@@ -3,3 +3,6 @@
 
 4. destructuring arrays
 - basically creating a pointer element to destructure arrays
+
+7. for of loop
+- an iterable is a data structure like a linked list or array that can be iterated through.
