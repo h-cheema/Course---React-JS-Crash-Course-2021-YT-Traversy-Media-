@@ -1,22 +1,64 @@
-Section 1: Introduction
+Section 1: Introduction (55m)
     3.
     - everything in the browswer is an object
     - "Document object" has properties and methods. easily accessible
+    5.
+    - each tab has its own window instance/object
+    - type "window" in browser console to get window obj
+        - history - object had methods like back, forward, go for tab
+    - window obj -> document obj
+        - window.document
+    - browser creates a model from the http response
+    - console.log() - console log out as a string
+    - console.dir() - object input, json tree printout
+    6.
+    - "document.forms" in the console will show forms on the page
+    - window -> document -> html -> all the html objects
+    7.
+    - BOM - browser object model - lets js communicate with the browser
+        - navigator, screen, location, history, etc
+        - no standards for BOM (compared to something like ecma)
+    8.
+    - DOM was designed to be language independant
+        - could use something like python to manipulate DOM
+    - XML structures content
+    9.
+    - DOM is an interface for valid HTML documents
+    - What the DOM is not:
+        - HMTL
+            - Errors
+                - DOM will add elements to make invalid HTML valid
+                    - will add body object if no html body tag at all
+                - DOM will add closing tags if they are not there
+            - JavaScript
+        - not what you see in the browser
+            - ex: "display:none;" object still exists, just invisible
+        - DevTools
+    12.
+    - pseudo elements are used to style an element
+        - added to the selector
+        - ex: "p::first-line {color:'red';}"
+    15.
+    - pseudo elements are not part of the DOM
+    
+        
 
-Section 2: Bonus Section - JavaScript vs DOM
 
 
-Section 3: Accessing the DOM
+Section 2: Bonus Section - JavaScript vs DOM (22m)
 
 
-Section 4: Nodes
+Section 3: Accessing the DOM (1hr 21m)
 
 
-Section 5: Traversing the DOM
+Section 4: Nodes (42m)
 
 
-Section 6: Creating, Removing and Cloning DOM Elements
+Section 5: Traversing the DOM (1hr 8m)
 
 
-Section 7: Where to next?
+Section 6: Creating, Removing and Cloning DOM Elements (1hr 6m)
+
+
+Section 7: Where to next? (4m)
 
