@@ -6,3 +6,7 @@
 
 7. for of loop
 - an iterable is a data structure like a linked list or array that can be iterated through.
+- not really suppoed to be used to modify the values being iterated over
+
+9. spread operator
+- 
