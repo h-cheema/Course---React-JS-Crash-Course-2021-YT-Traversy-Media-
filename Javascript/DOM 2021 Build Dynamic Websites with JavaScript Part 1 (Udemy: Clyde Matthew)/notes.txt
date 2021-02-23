@@ -41,21 +41,31 @@ Section 1: Introduction (55m)
     15.
     - pseudo elements are not part of the DOM
 
-
 Section 2: Bonus Section - JavaScript vs DOM (22m)
-- there are many javascript engines out there. chrome uses "v8"
-- JS uses DOM API to interact with the DOM
-- JS is used in: 
-    - browsers - manipulating the DOM
-    - backend - things like Node.js
-    - databases - example: mongoDB
-- getElementByID and setTimeout are DOM functions, not JS itself
-- DOM was not designed specifically for JS
-- DOM is like bricks, JS is like glue
-
+    - there are many javascript engines out there. chrome uses "v8"
+    - JS uses DOM API to interact with the DOM
+    - JS is used in: 
+        - browsers - manipulating the DOM
+        - backend - things like Node.js
+        - databases - example: mongoDB
+    - getElementByID and setTimeout are DOM functions, not JS itself
+    - DOM was not designed specifically for JS
+    - DOM is like bricks, JS is like glue
 
 Section 3: Accessing the DOM (1hr 21m)
-Section 4: Nodes (42m)
-Section 5: Traversing the DOM (1hr 8m)
-Section 6: Creating, Removing and Cloning DOM Elements (1hr 6m)
-Section 7: Where to next? (4m)
+    27.
+    - each browser has their own DOM modifications
+    - document is the root of our webpage
+    - "console.dir(document)" returns document object
+    - every node has a prototype
+    29.
+    - HTML
+        - DOM often refered to as DOM tree with many nodes (tags are elements and are nodes)
+        - everything is basically node
+    * querySelector()
+
+...
+    Section 4: Nodes (42m)
+    Section 5: Traversing the DOM (1hr 8m)
+    Section 6: Creating, Removing and Cloning DOM Elements (1hr 6m)
+    Section 7: Where to next? (4m)
