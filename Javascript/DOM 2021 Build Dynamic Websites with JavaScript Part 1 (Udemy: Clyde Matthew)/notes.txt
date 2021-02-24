@@ -63,6 +63,16 @@ Section 3: Accessing the DOM (1hr 21m)
         - DOM often refered to as DOM tree with many nodes (tags are elements and are nodes)
         - everything is basically node
     * querySelector()
+    32.
+    - document.getElementById() 
+        - was the only way to access DOM before
+        - returns an element node
+    34.
+    - document.getElementByID() can only get one element at a time
+    - getElementsByClassName() returns a collection, not an array
+
+
+
 
 ...
     Section 4: Nodes (42m)
