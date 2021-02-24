@@ -70,6 +70,15 @@ Section 3: Accessing the DOM (1hr 21m)
     34.
     - document.getElementByID() can only get one element at a time
     - getElementsByClassName() returns a collection, not an array
+    40.
+    - getElementsByTagName()
+        - can be performance heavy
+        - returns live HTMLCollection, not strictly an array
+    41.
+    - querySelector is the newer way of accessing the DOM
+    - a query element is a node
+
+
 
 
 
