@@ -133,8 +133,14 @@ Section 5: Traversing the DOM (1hr 8m)
     - "element.firstChild"
     - "element.lastChild"
     - "element.children[0]"
-
-
+    74.
+    - "<h1>Welcome</h1>" .firstChild and .lastChild return the text.
+        - .children[0] returns elements only. returns undefined.
+        -
+    75.
+    - child element can only have one parent
+    - childNodes returns node collection
+    - children returns HTMLCollection
 
 
 
