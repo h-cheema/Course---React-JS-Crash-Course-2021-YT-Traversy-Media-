@@ -41,6 +41,7 @@ Section 1: Introduction (55m)
     15.
     - pseudo elements are not part of the DOM
 
+
 Section 2: Bonus Section - JavaScript vs DOM (22m)
     - there are many javascript engines out there. chrome uses "v8"
     - JS uses DOM API to interact with the DOM
@@ -51,6 +52,7 @@ Section 2: Bonus Section - JavaScript vs DOM (22m)
     - getElementByID and setTimeout are DOM functions, not JS itself
     - DOM was not designed specifically for JS
     - DOM is like bricks, JS is like glue
+
 
 Section 3: Accessing the DOM (1hr 21m)
     27.
@@ -77,6 +79,7 @@ Section 3: Accessing the DOM (1hr 21m)
     41.
     - querySelector is the newer way of accessing the DOM
     - a query element is a node
+
 
 Section 4: Nodes (42m)
     49.
@@ -114,13 +117,41 @@ Section 4: Nodes (42m)
         HTMLC = live, NL = static
 
 
-
-
-
-
-
-
-
 Section 5: Traversing the DOM (1hr 8m)
+    65.
+    - Getting parent node: "parentNode" and "parentElement"
+    - "Child" is directly under parent
+    - "Descendants" are multiple levels below parent
+    - "Siblings" do not have to be the same type but do have to be same level
+    69.
+    - global properties (well known) - window, document, html.
+    72.
+    - "element.nextSibling" - includes returns and text
+    - "element.previousSibling", "element.previousElementSibling"
+    - "element.nextElementSibling" - only html elements
+    73.
+    - "element.firstChild"
+    - "element.lastChild"
+    - "element.children[0]"
+
+
+
+
+
+
+
+
 Section 6: Creating, Removing and Cloning DOM Elements (1hr 6m)
+
+
+
+
+
+
+
+
+
+
+
+
 Section 7: Where to next? (4m)
