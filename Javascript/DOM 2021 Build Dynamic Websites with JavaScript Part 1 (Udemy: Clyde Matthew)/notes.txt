@@ -78,13 +78,49 @@ Section 3: Accessing the DOM (1hr 21m)
     - querySelector is the newer way of accessing the DOM
     - a query element is a node
 
+Section 4: Nodes (42m)
+    49.
+    - Every item on the DOM tree is a node
+    - nodes can conatin html tags
+    50.
+    - newlines and spaces in the HTML are valid characters and are part of the DOM
+    - all content must be inside the body tag
+    53.
+    - The document object is a node
+    54.
+    - Types of active/relevant nodes (in image notes)
+    - Common Nodes:
+        - Document nodes
+        - Element nodes
+        - Text nodes
+        - Comment nodes
+    56.
+    - Each node as a node type and a node value
+    - Family dynamics:
+        - parents, children and siblings
+        - parents can be singlings or children and so on.
+    58.
+    - nodeName: <p> will return P
+        - nodeName always returns capital string
+        - does not give other info like attributes. name of node only.
+        - tagName is only for tags. nodeName is for any node type.
+    59.
+    - NodeList vs HTMLCollection
+        - both are collections of DOM nodes
+        - NodeList can contain any type of node
+            - accessed only by node id
+        - HTMLCollection can only contain elements
+            - accessed by name, id or index number
+        HTMLC = live, NL = static
 
 
 
 
 
-...
-    Section 4: Nodes (42m)
-    Section 5: Traversing the DOM (1hr 8m)
-    Section 6: Creating, Removing and Cloning DOM Elements (1hr 6m)
-    Section 7: Where to next? (4m)
+
+
+
+
+Section 5: Traversing the DOM (1hr 8m)
+Section 6: Creating, Removing and Cloning DOM Elements (1hr 6m)
+Section 7: Where to next? (4m)
