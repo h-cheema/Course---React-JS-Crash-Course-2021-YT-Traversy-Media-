@@ -53,9 +53,52 @@ Section 2: Basics (19min)
     - example: console.log(h1`hello ${placeVar} my name is ${nameVar}`);
 
 
-
-
 Section 3: Types & Equality (22min)
+    13. What are the different types in JavaScript?
+    - dynamically typed (liked js) variables types are determined at runtime
+        - quick development
+    - statically typed (like java) variables types are determined at compile time
+        - catch errors before compiling
+    - js engine uses "undefined" for either uninitialized var, missing parameter, unknown property from a list
+        - only js engine sets "undefined" but never "null"
+        - only a programmer sets "null" but never "undefined"
+        - "undefined" is a type
+        - undefined == null = true because value is the same. type is not, so undefined === null = false
+        - null's type is null but js incorrectly reports it as type "object"
+    
+    14. What is the difference between == and ===?
+    - == means equality (checks value)
+        - js tries to convert values to same type, like 0 and '0'. both convert to 0.
+            - called "type coercion" (the rules for this are very specific and hard to remember)
+            >> equality table https://dorey.github.io/JavaScript-Equality-Table/
+    - === means strict equality (checks type and value)
+        - always returns false if type is different. both type and value need to be same.
+
+    15. What is NaN and how can we check for it?
+    - NaN is of type number
+    - Results in a number that isn't a valid number
+    - NaN == NaN = false. 1 == NaN = false.
+    - isNaN(1) = false. isNaN("1") = false. isNaN("A") = true.
+        - implicit coercion
+    - How to check for NaN: Check equality to itself with ==
+    - NaN == to anything is always false, even NaN == NaN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Section 4: Scopes & Variables (38min)
 Section 5: Destructuring & Looping (21min)
 Section 6: This (46min)
