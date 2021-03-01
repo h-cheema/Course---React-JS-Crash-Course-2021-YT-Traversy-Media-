@@ -7,10 +7,10 @@ Section 2: Basics (19min)
     - ECMAScript goes by version. ES6 is also ES2015.
     - "caniuse.com" shows which browsers suppoert which features.
     - Js is 100% backwards compatible. Modern code will always work in the future.
-    - You should know how the old features the new ones are built on work.
+    - You should know how the old features that the new ones are built on work.
     
     5. What is compilations vs polyfilling?
-    - Compile new code into code for older browsers. ex: babel.
+    - Compile new code into primitive code for older browsers. ex: babel.
     - Polyfill includes a file that is used in old browser to be used.
 
     6. What is "use strict" and what does it do?
@@ -18,7 +18,9 @@ Section 2: Basics (19min)
         - makes debugging easier.
         - put "use strict" string at top of the file to use it.
         - putting "use strict" at top of function impl makes it strict mode 
-        - Variables must be declared with keyword. Prevents spelling mistakes when reassigning values.
+        - Variables must be declared with keyword. 
+            - Prevents spelling mistakes when reassigning values.
+            - Prevents globals
         - Does not let you delete functions or args for functions.
         - Does not let eval("var a = 1") leak variable a.
 
@@ -47,6 +49,8 @@ Section 2: Basics (19min)
     - `${1 + 4}`; will do math.
     - `${condition ? runTrue : runFalse}`
 
+    11. What are template string tags?
+    - example: console.log(h1`hello ${placeVar} my name is ${nameVar}`);
 
 
 
