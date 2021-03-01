@@ -1,0 +1,62 @@
+Section 2: Basics (19min)
+
+    4. What is JavaScript and how does it change?
+    - Ecma tc39 is committee that decides javascript's specifications.
+    - Anyone can make a proposal for tc39 on github.
+        - That proposal goes through stages of acceptance.
+    - ECMAScript goes by version. ES6 is also ES2015.
+    - "caniuse.com" shows which browsers suppoert which features.
+    - Js is 100% backwards compatible. Modern code will always work in the future.
+    - You should know how the old features the new ones are built on work.
+    
+    5. What is compilations vs polyfilling?
+    - Compile new code into code for older browsers. ex: babel.
+    - Polyfill includes a file that is used in old browser to be used.
+
+    6. What is "use strict" and what does it do?
+    > Strict mode -> strict operating context.
+        - makes debugging easier.
+        - put "use strict" string at top of the file to use it.
+        - putting "use strict" at top of function impl makes it strict mode 
+        - Variables must be declared with keyword. Prevents spelling mistakes when reassigning values.
+        - Does not let you delete functions or args for functions.
+        - Does not let eval("var a = 1") leak variable a.
+
+    7. Does javascript pass variables by reference or by value?
+    - Prims are passed by value. Objects are passed by reference.
+        - Cannot change passed value in outer scope.
+
+    8. What are the rest operators?
+    - Js functions ignore extra parameters by default
+    - Within a function, there is a collection/structure (not an array) of all arguements called "arguements".
+        - func(1,2,3) {Array.prototype.slice.call(arguements, 1);} was work around before.
+    - "function(...options){}" options is an array.
+        - "function(arg, ...options){}" arg is first arguement, options has the rest of args (rest operator).
+    
+    9. What is the spread operator?
+    - "var ar1 = [4,5,6];"
+    - "var ar2 = [1,2,3, ...ar1];" adds each element.
+    - Better than adding array directly as an element (becomes MD array).
+    - console.log(method, ...opts) opts array spreads out individual vars.
+    - USE CASES: copying arrays, manipulating arrays, explode arguements into a func that takes mult args
+    
+    10. What are template strings?
+    - `string` includes literally everything, even new lines.
+    - `${name}` prints name var
+    - Makes code easier to understand.
+    - `${1 + 4}`; will do math.
+    - `${condition ? runTrue : runFalse}`
+
+
+
+
+
+Section 3: Types & Equality (22min)
+Section 4: Scopes & Variables (38min)
+Section 5: Destructuring & Looping (21min)
+Section 6: This (46min)
+Section 7: Object Orientation (1hr 24min)
+Section 8: Asynchronous Programming (1hr 3min)
+Section 9: Networking (30min)
+Section 10: Events (13min)
+Section 11: Bonus (1min)

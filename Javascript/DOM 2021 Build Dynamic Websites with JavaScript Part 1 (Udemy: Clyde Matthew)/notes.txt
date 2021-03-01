@@ -136,22 +136,27 @@ Section 5: Traversing the DOM (1hr 8m)
     74.
     - "<h1>Welcome</h1>" .firstChild and .lastChild return the text.
         - .children[0] returns elements only. returns undefined.
-        -
     75.
     - child element can only have one parent
     - childNodes returns node collection
     - children returns HTMLCollection
 
 
-
-
-
-
 Section 6: Creating, Removing and Cloning DOM Elements (1hr 6m)
-
-
-
-
+    84.
+    - the DOM does not have to be fully made up of HTML
+    85.
+    - console.dir(document) returns the page as json instead of html
+    86. Document vs document
+    - HTMLDocument constructor function creates the document object
+    - createElement is found in the Document object
+    - documents inherits from Document
+    - browser instantiates both Document and HTMLDocument
+    88. Understanding the createElement() method
+    - document.createElement('p') creates element but does not add to it to the DOM
+    - first: createElement('name') to instantiate element
+        - second: find a parent, attach it to the parent with appendChild()
+    -
 
 
 
