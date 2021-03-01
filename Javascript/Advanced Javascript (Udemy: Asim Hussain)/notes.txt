@@ -54,6 +54,7 @@ Section 2: Basics (19min)
 
 
 Section 3: Types & Equality (22min)
+
     13. What are the different types in JavaScript?
     - dynamically typed (liked js) variables types are determined at runtime
         - quick development
@@ -84,22 +85,30 @@ Section 3: Types & Equality (22min)
     - NaN == to anything is always false, even NaN == NaN
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Section 4: Scopes & Variables (38min)
+
+    16. Hello Scopes & Variables - NEW
+    - Scope: lifetime of a variable
+
+    17. What are the different scopes in JavaScript? - NEW
+    >> Check 17.scopes.js
+
+    18. What is variable hoisting?
+    >> Check 18.hoisting.js
+    - Automatic hoisting of the declared variables/functions to the top of the file.
+
+    19. What is the scope chain?
+    - A function searches parent scopes until global.
+    - Defined by how program is physically written in the file.
+        - Code is defined in order of declaration (lexically)
+    
+    20. What is an IIFE and why might you use it?
+    - Immediately Invoked Function Expression
+    - (function(){})(); is called right away.
+
+    *21. What are function closures?
+
+
 Section 5: Destructuring & Looping (21min)
 Section 6: This (46min)
 Section 7: Object Orientation (1hr 24min)
