@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Creating Elements</title>
+        <style>
+            body {
+                background-color: #d9dacd;
+            }
+            h1 {
+                color: rgb(43, 33, 33);
+                font-size: 72px;
+                padding: 20px;
+            }
+            p {
+                font-size: 24px;
+                font-family: sans-serif;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Cool animals</h1>
+
+        <ul></ul>
+
+        <script>
+
+            let animals = ["dogs", "cats", "bird", "elephant"];
+
+            let ulElement = document.querySelector('ul');
+
+            for (const animal of animals) {
+                let listItem = document.createElement('li');
+                listItem.textContent = animal;
+                ulElement.appendChild(listItem);
+            }
+
+        </script>
+
+    </body>
+</html>
