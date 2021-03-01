@@ -156,7 +156,13 @@ Section 6: Creating, Removing and Cloning DOM Elements (1hr 6m)
     - document.createElement('p') creates element but does not add to it to the DOM
     - first: createElement('name') to instantiate element
         - second: find a parent, attach it to the parent with appendChild()
-    -
+    90. Using the textContent property to add text to our newly created element 
+    - elementName.textContent = "" is safer than innerHTML
+        - innerHTML exposes site to XXS (scross site scripting) exploit
+            - inline js can be added to the html with innerHTML
+    91. How does appendChild work?
+    - node.insertBefore(), node.replaceChild()
+    - 
 
 
 
