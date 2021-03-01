@@ -34,6 +34,7 @@
             bodyElement.insertBefore(newElement, scriptElement); // (newChild, itemToPrecede)
             */
 
+            
             let newElement = document.createElement('p');
             newElement.textContent = "Or am I a figment of your imagination?";
             // get h1 element
@@ -43,6 +44,11 @@
             let h1NextElement = h1Element.nextElementSibling;
             // grab next element sibling (not just next sibling which could be text node)
             bodyElement.insertBefore(newElement, h1NextElement);
+            
+            // remove p from DOM (these all work)
+            // bodyElement.removeChild(newElement);
+            // newElement.parentNode.removeChild(newElement)
+            newElement.remove();
 
         </script>
     </body>

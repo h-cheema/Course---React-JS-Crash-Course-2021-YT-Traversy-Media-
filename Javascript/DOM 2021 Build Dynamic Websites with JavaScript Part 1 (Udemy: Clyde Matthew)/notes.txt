@@ -162,13 +162,9 @@ Section 6: Creating, Removing and Cloning DOM Elements (1hr 6m)
             - inline js can be added to the html with innerHTML
     91. How does appendChild work?
     - node.insertBefore(), node.replaceChild()
-    - 
-
-
-
-
-
-
+    99. It's time to clone
+    - node.cloneNode(true) - clone all children
+    - node.cloneNode(false) - clone high level node
 
 
 Section 7: Where to next? (4m)
