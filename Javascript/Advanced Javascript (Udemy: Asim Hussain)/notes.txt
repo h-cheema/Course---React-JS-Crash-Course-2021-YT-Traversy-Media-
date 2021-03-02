@@ -110,6 +110,9 @@ Section 4: Scopes & Variables (38min)
 
 
 Section 5: Destructuring & Looping (21min)
+    
+
+
 Section 6: This (46min)
 Section 7: Object Orientation (1hr 24min)
 Section 8: Asynchronous Programming (1hr 3min)
