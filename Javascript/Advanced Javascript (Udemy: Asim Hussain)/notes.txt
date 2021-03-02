@@ -111,9 +111,43 @@ Section 4: Scopes & Variables (38min)
 
 Section 5: Destructuring & Looping (21min)
     
+    - foreach - cannot use break; or continue;
+    - for (let index in array){} - index = literal index
+    - forof - for (const value of array) - made specifically for array values.
 
 
 Section 6: This (46min)
+    25. Hello This
+    - very important in interviews and programming
+    26. What does the this keyword mean?
+    - console.log(this) in inspector returns the window.
+    - "this" is determined by the calling context (how a function is called)
+    - "use strict" in things like functions can help prevent calling context confusion.
+        - stops default this object from being the global object.
+            - prevents unwanted/unexpected behaviour
+    - var self = this; 
+    *27. What do the functions call, bind and apply do?
+    - in js, functions are objects wih properties, which are also functions.
+    - function a(){} - a.name = "a" in inspector.
+        -  you can add properties to functions too, like a.moo = 1
+    - *a.call();
+        - funcName.call() stabalizes the value of "this" in the function.
+        - a.call(this/null, ...params)
+    - a.apply(this/null, array);
+    - bind()
+        - at function assignment, we can set what we want "this" to be
+        - func(){}.bind(1);
+        - only works with functions expressions. (var a = function(){}.bind())
+    28. What is a fat arrow function?
+    - Functions can be passed around like variables, even as parameters.
+        - Called "First Class Function"
+        - function(function(){}) 
+            - Replaced with a "function expression" - function(() => {})
+            - let add = (a,b) => a+b; (no need for "return" or cbrackets)
+    - solves the stability of "this"
+    - 
+
+
 Section 7: Object Orientation (1hr 24min)
 Section 8: Asynchronous Programming (1hr 3min)
 Section 9: Networking (30min)
