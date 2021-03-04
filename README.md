@@ -8,5 +8,5 @@
 
 #### Core Web Development:
 * Javascript
+  * (IN PROGRESS) Advanced Javascript (Udemy: Asim Hussain)
   * (FINISHED) JavaScript ES6, ES7, ES8 (freeCodeCamp.org) [done: 2021/02/21] 
-
