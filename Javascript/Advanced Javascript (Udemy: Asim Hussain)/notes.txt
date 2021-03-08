@@ -145,10 +145,17 @@ Section 6: This (46min)
             - Replaced with a "function expression" - function(() => {})
             - let add = (a,b) => a+b; (no need for "return" or cbrackets)
     - solves the stability of "this"
-    - 
 
 
 Section 7: Object Orientation (1hr 24min)
+    30. What is the prototype chain?
+    - very obj has a prototype.
+    - obj.__proto__ should not be used in production
+    -* Object.create(animal, {food: {value:"mango"}});
+        - key is food, value is mango
+
+
+
 Section 8: Asynchronous Programming (1hr 3min)
 Section 9: Networking (30min)
 Section 10: Events (13min)
