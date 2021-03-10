@@ -110,7 +110,6 @@ Section 4: Scopes & Variables (38min)
 
 
 Section 5: Destructuring & Looping (21min)
-    
     - foreach - cannot use break; or continue;
     - for (let index in array){} - index = literal index
     - forof - for (const value of array) - made specifically for array values.
@@ -149,10 +148,15 @@ Section 6: This (46min)
 
 Section 7: Object Orientation (1hr 24min)
     30. What is the prototype chain?
-    - very obj has a prototype.
-    - obj.__proto__ should not be used in production
-    -* Object.create(animal, {food: {value:"mango"}});
-        - key is food, value is mango
+    - Every obj has a prototype
+        - Works similar to single inheritance
+    32. What is the Constructor OO pattern? (part 1)
+    - ES5 has no classes, but >ES6 does
+    - people incorrectly call pseudo-classical inheritance just classical inheritance
+    - should always be using "use strict"
+    - objects have "__proto__" and functions have "prototype" property.
+    - member functions of a class should be added to proto
+    
 
 
 
