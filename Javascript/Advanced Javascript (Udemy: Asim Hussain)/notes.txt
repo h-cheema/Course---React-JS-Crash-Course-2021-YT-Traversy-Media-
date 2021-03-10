@@ -147,15 +147,20 @@ Section 6: This (46min)
 
 
 Section 7: Object Orientation (1hr 24min)
+
     30. What is the prototype chain?
     - Every obj has a prototype
         - Works similar to single inheritance
+
     32. What is the Constructor OO pattern? (part 1)
     - ES5 has no classes, but >ES6 does
     - people incorrectly call pseudo-classical inheritance just classical inheritance
     - should always be using "use strict"
     - objects have "__proto__" and functions have "prototype" property.
     - member functions of a class should be added to proto
+    
+    33. What is the Constructor OO pattern? (part 2)
+    - 
     
 
 
