@@ -159,13 +159,20 @@ Section 7: Object Orientation (1hr 24min)
     - objects have "__proto__" and functions have "prototype" property.
     - member functions of a class should be added to proto
     
-    33. What is the Constructor OO pattern? (part 2)
-    - 
-    
-
-
 
 Section 8: Asynchronous Programming (1hr 3min)
+
+    36. Hello Asynchronous Programming
+    - Allows JS to be really fast yet can be created quickly.
+
+    37. What is a callback?
+    - A func that gets passed into a func and gets called in that func.
+    - Callbacks themselves are not asynchronous. 
+    - Only by splitting up execution with things like SetTimeout() makes it asynchronous.
+    - Handling errors: 
+
+
+
 Section 9: Networking (30min)
 Section 10: Events (13min)
 Section 11: Bonus (1min)
