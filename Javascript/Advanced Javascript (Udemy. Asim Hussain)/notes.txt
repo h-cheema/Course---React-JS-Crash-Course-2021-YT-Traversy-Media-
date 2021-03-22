@@ -185,7 +185,10 @@ Section 8: Asynchronous Programming (1hr 3min)
         - Callbacks are not async by default
 
     40. How do you chain promises together?
-    - 
+    - if an error is thrown in the promise body or a .then(), reject is called for you.
+
+    41. What does the Promise.all function do?
+    - Lets you do several things while waiting for things like downloading things.
 
 
 Section 9: Networking (30min)
