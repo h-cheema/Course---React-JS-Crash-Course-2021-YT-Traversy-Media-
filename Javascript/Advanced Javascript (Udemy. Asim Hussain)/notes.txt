@@ -169,8 +169,23 @@ Section 8: Asynchronous Programming (1hr 3min)
     - A func that gets passed into a func and gets called in that func.
     - Callbacks themselves are not asynchronous. 
     - Only by splitting up execution with things like SetTimeout() makes it asynchronous.
-    - Handling errors: 
+    - Handling errors: Error First Callback (main.html)
+    - You don't always know when async functions get called based on call order.
 
+    38. What is callback hell?
+    - "Callback Hell": Deeply nested callback functions.
+        - Chaining callbacks together to they happen one after the other.
+        - Often results in bugs because it's hard to manage the tracebacks.
+
+    39. What are promises?
+    - Became part of js in ES6.
+    - Have been around in other languages for a long time.
+    - You can attach a .then() handler to a promise but not callbacks.
+        - Promises are always and truely async by default 
+        - Callbacks are not async by default
+
+    40. How do you chain promises together?
+    - 
 
 
 Section 9: Networking (30min)
