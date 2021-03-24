@@ -174,15 +174,15 @@ Section 8: Asynchronous Programming (1hr 3min)
 
     38. What is callback hell?
     - "Callback Hell": Deeply nested callback functions.
-        - Chaining callbacks together to they happen one after the other.
+        - Chaining callbacks together so they happen one after the other.
         - Often results in bugs because it's hard to manage the tracebacks.
 
     39. What are promises?
     - Became part of js in ES6.
     - Have been around in other languages for a long time.
     - You can attach a .then() handler to a promise but not callbacks.
-        - Promises are always and truely async by default 
-        - Callbacks are not async by default
+        - Promises are always and truely async by default.
+        - Callbacks are not async by default.
 
     40. How do you chain promises together?
     - if an error is thrown in the promise body or a .then(), reject is called for you.
@@ -190,7 +190,19 @@ Section 8: Asynchronous Programming (1hr 3min)
     41. What does the Promise.all function do?
     - Lets you do several things while waiting for things like downloading things.
 
+    *42. What is async/await and how is it different from promises?
+    - ES8 introduced await.
+    - Good but has downsides.
+    - Async await vs promises.
+        - await waits for a value before moving on.
+        - await converts non blocking code into blocking code.
+        - await converts sync to async code.
+        - await is bad for performance.
+    - There should be a good balane of await and promises.
+    - "async function(){}" async alone does nothing. It must be paired with await().
+    
+
 
 Section 9: Networking (30min)
 Section 10: Events (13min)
-Section 11: Bonus (1min)
+Section 11: Bonus (1min) 
