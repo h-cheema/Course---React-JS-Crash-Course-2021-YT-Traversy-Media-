@@ -1,0 +1,69 @@
+3. Technologies
+    - Local machine server
+        - hard to collaborate
+        - different platforms
+        - conflicts with system apps
+        - slows down pc
+        - Different OS than server
+    - Vagrant
+        - Virtual dev machine
+            - easy to share server
+            - same versions of requirements
+            - software same as real servers
+
+
+4. Vagrant vs Docker
+    - Docker best for:
+        - Streamlined workflow
+        - All devs use supported OS
+    - Vagrant best for:
+        - Just getting started
+        - Need wider OS range support
+
+
+14. Running and connecting to our dev server
+    - Vagrant VM can be accessed from anywhere using ssh
+
+
+17. Install required Python packages
+    - (env) vagrant@ubuntu-bionic:/vagrant$ pip install -r requirements.txt
+        - Installs packages from requirements
+
+
+22. What are Django Models?
+    - Models describe data we need to access or modify
+    - Django models each handle specific  db functions
+
+
+23. Add a user model manager
+    - Super user is like a super admin that has complete control.
+    - def create_user(self, email, name, password=None)
+        - Method have to have self as first parameter.
+        - None password does not authenticate.
+    - normalizing emails - standardizes emails by removing case sensitivity 
+        of either or both sides of the email address.
+    - user.set_password(password) sets the password as a hashed text. Hackers can't convert.
+    - self is called automatically with class functions.
+
+
+25. Create migrations and sync DB
+    - migration file 
+        - stores all steps required to make db match models.
+    - in 0.0.0.0/8000/admin
+        - each section (Auth Token, Authentication and Authorization, and Profiles_API)
+            represents an app.
+
+
+Section 9: Introduction to Viewsets
+    - ViewSets intro
+        - Good for simple CRUD
+        - dbs with standard structure
+        - minimal logic customization
+
+    - ViewSets use a router for urls.
+
+
+Section 10: Create Profiles API
+    - ModelViewSet - Manages models through API
+    - Django REST framework takes care of standard CRUD functions for models with serialization and queryset
+    - TokenAuthentication authenticates requests
