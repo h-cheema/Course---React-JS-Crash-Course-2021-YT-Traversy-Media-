@@ -7,5 +7,5 @@
   *  ✔️ **React Tutorial For Beginners** (Dev Ed) [done: 2021/02/16] 
 
 #### Core Web Development:
-  * ❌ **Advanced Javascript** (Udemy: Asim Hussain)
+  * ✔️ **Advanced Javascript** (Udemy: Asim Hussain) [done: 2021/03/24] 
   * ✔️ **JavaScript ES6, ES7, ES8** (freeCodeCamp.org) [done: 2021/02/21] 
