@@ -11,4 +11,5 @@
   * ✔️ **JavaScript ES6, ES7, ES8** (freeCodeCamp.org) **[done: 2021/02/21]**
 
 #### Other
-  * ✔️ **Python Django Dev To Deployment (REST APIs)** (Udemy. Traversary Media) **[done: 2020/09/30]**
+  * ✔️ **Python Django Dev To Deployment (REST APIs)** (Udemy. Brad Traversy) **[done: 2020/09/30]**
+  * ✔️ **Build a Backend REST API with Python & Django** (Udemy. Brad Traversy) **[done: 2020/09/23]**
