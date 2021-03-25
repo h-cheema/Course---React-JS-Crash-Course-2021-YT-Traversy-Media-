@@ -219,8 +219,18 @@ Section 9: Networking (30min)
     - Has many uses for things like weather services through simple get requests.
 
 
-
-
-
 Section 10: Events (13min)
+
+    45. What is the difference between event capturing and bubbling?
+    - Phases when events are fired: 
+        - 1. Event capturing phase: Root to target (window -> document ... button)
+        - 2. Event bubbling phase: Target to root (button ... document -> window)
+    - You can choose which phase an event listener listens to. Default is bubbling phase.
+    - Event listeners are handled in order of DOM/call. It is not asynchronous.
+
+    46. What is the difference between stopPropagation and preventDefault?
+    - Stops event from proceeding down capturing phase or going up bubbling phase.
+    - Calling event.stopPropagation() stops the phase proceeding.
+
+
 Section 11: Bonus (1min) 
