@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head><body></body>
+<script>
+
+
+    // PROMSIE FORKING
+    const p = Promise.resolve("done"); // p.then() calls are split and called separately.
+    p.then(val => {
+        console.log(val);
+        return "done2";
+    });
+    p.then(val => console.log(val))
+
+
+
+    // PROMISE CHAINS
+    Promise.resolve("done").then(val => { // Call first handler
+        console.log(val);
+        return new Promise(resolve => {
+            setTimeout(() => resolve("done2"), 1000);
+        });
+    }).then(val => console.log(val))
+
+
+    
+    // PROMISE CHAINS ERROR HANDLING
+    Promise.reject("fail")
+    .then(val => console.log(val))
+    .then(val => console.log(val), err => console.error(err)); // Go down chain until error handler found.
+
+
+
+    // PROMISE CHAINS AUTO ERROR HANDLING
+    new Promise((resolve, reject) => {
+        throw "fail"; // if something is thrown, reject is called for you.
+    })
+    .then(val => {
+        console.log(val);
+        // throw "fail"; // This also works in .then()
+    })
+    .catch(err => console.error(err)) // can use catch instead of     .then(val => console.log(val), err => console.error(err));
+    .finally(_ => console.log("Cleaning up")) // Finally is always called.
+
+
+</script>
+</html>

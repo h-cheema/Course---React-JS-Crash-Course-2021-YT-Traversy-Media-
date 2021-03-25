@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head><body></body>
+<script>
+
+    const doAsyncTask = () => Promise.resolve("done");
+
+    // let asyncFunction = async function() {
+    //     let value = await doAsyncTask();
+    //     console.log(value);
+    //     console.log("done2");
+    //     return "3"; // Same as calling resolve in a promise
+    // };
+    asyncFunction().then(v => console.log(v));
+
+
+    let asyncFunction = async function() {
+        try {
+            const value = await doAsyncTask();
+        } catch (error) {
+            console.error("Moo: ", e);
+            return;
+        }
+    };
+
+
+</script>
+</html>

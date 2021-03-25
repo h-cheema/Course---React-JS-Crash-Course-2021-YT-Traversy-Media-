@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head><body></body>
+<script>
+
+    // PROMISES
+
+        function doAsyncTask() {
+            const promise = new Promise((resolve, reject) => { // resolve and reject are indicators of completion.
+
+                console.log("Async Work Complete");
+
+                if (true) {
+                    resolve("resolve string") // You can pass in anything here including objects.
+                } else {
+                    reject(52749830)
+                }
+
+            });
+            return promise;
+        }
+
+        // doAsyncTask().then(() => console.log("Task Complete")) // .then() is a sucesshandler
+
+        doAsyncTask().then(
+            (val) => console.log(val), // Pass data back out of promise
+            (err) => console.log(err)
+        ); // .then() is a sucesshandler
+
+
+
+    // PREDEFINED PROMISE RESOLVED/REJECTED
+
+        let res = promise.resolve("done");
+        res.then(val => console.log(val)) // You can still call promise.then() even when promise is resolved. This is not possible with callbacks.
+        
+        let rej = promise.reject("err");
+    
+
+</script>
+</html>

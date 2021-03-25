@@ -200,9 +200,11 @@ Section 8: Asynchronous Programming (1hr 3min)
         - await is bad for performance.
     - There should be a good balane of await and promises.
     - "async function(){}" async alone does nothing. It must be paired with await().
-    
 
 
 Section 9: Networking (30min)
+
+    
+
 Section 10: Events (13min)
 Section 11: Bonus (1min) 
