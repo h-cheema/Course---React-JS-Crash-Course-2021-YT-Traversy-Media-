@@ -204,7 +204,23 @@ Section 8: Asynchronous Programming (1hr 3min)
 
 Section 9: Networking (30min)
 
-    
+    43. What is CORS?
+    - Opens rules so you can access servers from different origins.
+    - GET
+        - It's the response that is blocked by js. Request going out does not.
+    - Server can be configured to allow certain response methods like PUT and GET.
+    - To make CORS work, you must cordinate with the server side. Client side can't do anything.
+    - Access Control Allow Header must either: *, the origin request domain, (options must allow these: for puts, post, delete).
+
+    44. 18. What is JSONP?
+    - Predates CORS standard.
+    - Created as a pesduo standard way to retrieve data form a domain.
+    - Has limitations: Only works with GET (not put, post or delete)
+    - Has many uses for things like weather services through simple get requests.
+
+
+
+
 
 Section 10: Events (13min)
 Section 11: Bonus (1min) 
