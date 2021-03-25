@@ -2,7 +2,7 @@
 ## Doing = ❌
 <br><br>
 
-#### Front End Web Development:
+## Front End Web Development:
 | Status | Course | Source | Author | Date Done |
 | :---: |:---| :----- | :-----| :-----|
 | ❌ | ReactJs Tutorial for Beginners | Youtube | Programming with Mosh | |
@@ -10,14 +10,14 @@
 | ✔️ | React Tutorial For Beginners | Udemy| Dev Ed | 2021/02/16 |
 <br>
 
-#### Core Web Development:
+## Core Web Development:
 | Status | Course | Source | Author | Date Done |
 | :---: |:---| :----- | :-----| :-----|
 | ✔️ | Advanced Javascript | Udemy | Asim Hussain | 2021/03/24 |
 | ✔️ | JavaScript ES6, ES7, ES8 | freeCodeCamp.org | freeCodeCamp.org | 2021/02/21|
 <br>
 
-#### Other
+## Other
 | Status | Course | Source | Author | Date Done |
 | :---: |:---| :----- | :-----| :-----|
 | ✔️ | Python Django Dev To Deployment (REST APIs) | Udemy | Brad Traversy | 2020/09/30 |
