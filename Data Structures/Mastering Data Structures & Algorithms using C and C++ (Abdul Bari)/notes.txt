@@ -1,7 +1,0 @@
-Mastering Data Structures & Algorithms using C and C++
-
-
-Section 2: Essential C and C++ Concepts
-
-    3. Arrays Basics
-    - 
