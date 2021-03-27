@@ -1,0 +1,21 @@
+Algorithms (Data Structures) Bootcamp in C++
+
+
+Section 2: Algorithms - Recursion
+
+    2. What are stack and heap memory?
+    - Both are their own specific regions on RAM. Data types are stack and heap.
+    - Stack: small, fast access, stores func calls and local vars, no fragmentation.
+        - LIFO - last in first out.
+    - Heap: large, slow access, stores objects, can become fragmented.
+        - FIFO - first in first out.
+    
+    4. What is recursion (recursive function call)?
+    - Recursion is one of the central computer science ideas.
+    - We can transform recursion into iteration and back.
+    - Recursion is very elegant.
+    - Base cases are used to avoid infinite loops.
+    - Head and tail recursion:
+        - Tail: recursive call is at end of function. Similar to a for loop.
+        - Head: recursive call is at the start of the function. method saves state, requiring more memory.
+    
