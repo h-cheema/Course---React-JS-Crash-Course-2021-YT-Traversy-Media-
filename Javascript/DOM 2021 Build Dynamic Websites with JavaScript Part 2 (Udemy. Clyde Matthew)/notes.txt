@@ -1,0 +1,28 @@
+DOM 2021 Build Dynamic Websites with JavaScript Part 2
+
+Section 1: Introduction to Events
+
+    1. Introduction - what is an event
+    - An event is an action a user or browser has taken.
+        - hover over an element.
+        - clicking a button.
+        - submitting a form.
+        - page finishes loading.
+    - Events take place in the browser itself, given to use by the DOM API. 
+    - Events are not unique to JS
+    - DOM changes in the console are only temporary. Refreshes removes changes.
+    
+    3. The 2 most important things when it comes to events
+    - A) Event listeners:
+        - Responsive interface to a listener on an element.
+        - three types of event listeners.
+            - inline event listener.
+            - inline properties.
+            - event listeners.
+    - B) Event handlers:
+        - every event needs a handler.
+        - Listeners listen for an event firing.
+        - Handlers respond to fired event.
+    - There are many different types of events.
+
+    
