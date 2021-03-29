@@ -1,5 +1,5 @@
 ## Done = ✔️
-## Doing = ❌
+## Doing = 🔶
 <br>
 <br>
 
@@ -7,7 +7,7 @@
 ## Front End Web Development:
 | Status | Course | Source | Author | Date Done |
 | :---: | :---| :----- | :----- | :----- |
-| ❌ | ReactJs Tutorial for Beginners | Youtube | Programming with Mosh | |
+| 🔶 | ReactJs Tutorial for Beginners | Youtube | Programming with Mosh | |
 | ✔️ | React JS Crash Course 2021 | Udemy | Traversy Media | 2021/02/14|
 | ✔️ | React Tutorial For Beginners | Udemy| Dev Ed | 2021/02/16 |
 <br>
