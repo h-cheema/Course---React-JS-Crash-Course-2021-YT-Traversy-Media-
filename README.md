@@ -7,7 +7,7 @@
 ## Front End Web Development:
 | Status | Course | Source | Author | Date Done |
 | :---: | :---| :----- | :----- | :----- |
-| 🔶 | ReactJs Tutorial for Beginners | Youtube | Programming with Mosh | |
+| 🔶 | ReactJs Tutorial for Beginners | Youtube | Programming with Mosh | NA |
 | ✔️ | React JS Crash Course 2021 | Udemy | Traversy Media | 2021/02/14|
 | ✔️ | React Tutorial For Beginners | Udemy| Dev Ed | 2021/02/16 |
 <br>
@@ -16,6 +16,7 @@
 ## Core Web Development:
 | Status | Course | Source | Author | Date Done |
 | :---: | :--- | :----- | :-----| :----- |
+| 🔶 | DOM 2021 Build Dynamic Websites with JavaScript Part 1 | Udemy | Clyde Matthew | NA |
 | ✔️ | Advanced Javascript | Udemy | Asim Hussain | 2021/03/24 |
 | ✔️ | DOM 2021 Build Dynamic Websites with JavaScript Part 1 | Udemy | Clyde Matthew | 2021/03/17 |
 | ✔️ | JavaScript ES6, ES7, ES8 | freeCodeCamp.org | freeCodeCamp.org | 2021/02/21|
