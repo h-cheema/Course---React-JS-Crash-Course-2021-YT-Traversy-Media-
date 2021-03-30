@@ -8,6 +8,12 @@ Section 1: Getting Started - 15min
         - Don't immitate js code.
         - Immitation -> When you have to debug or make code from scratch, you will have major problems.
     
+    5. Understanding, Frameworks, and The Weird Parts
+    - When you learn js through JQuery and Node, you don't get a deep understanding of js.
+    - You should build a very strong core js skillset first.
+    - Understanding weird parts = Understanding the hows and whys.
+
+
 
 Section 2: Execution Contexts and Lexical Environments - 1hr 34min
 Section 3: Types and Operators - 1hr 18min
