@@ -31,10 +31,22 @@ Section 1: Introduction to Events - hr 4min
     6. Do we need to wrap our attribute values in quotation marks?
     - Some attributes dont need quotation marks.
         - Quotations only needed when there are spaces, special characters: ` ' " < > =
+    
+    10. Summary - the 3 ways to add an event listener to HTML elements
+    - All ways to add event listeners work. 
+    - addEventListener() is the best way for organization and capabilities.
 
-    8. Inline Properties - brief introduction
-    - event Listeners
-        - 
+    14. Inline Event Listeners - detailed overview
+    - Inline event listeners are undesirable.
+        - You should separate your html from JS.
+        - If you have 100 buttons you have to change 100 elements manually.
+
+    17. Inline Event Listeners - TEST solution (part 3 of 3)
+    - onclick="handle()"
+        - onclick = listener
+        - handle() = handler
+    
+    
 
 
 
