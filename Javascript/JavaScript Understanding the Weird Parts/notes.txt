@@ -1,0 +1,22 @@
+Section 1: Getting Started - 15min
+
+    1. Introduction and The Goal of This Course
+    - js is nothing like other similar looking languages, such as java or c++
+        - js is a different paradigm than those languages.
+    - js is deceptively powerful and beautiful.
+    - Philosophy: Don't immitate. Understand.
+        - Don't immitate js code.
+        - Immitation -> When you have to debug or make code from scratch, you will have major problems.
+    
+
+Section 2: Execution Contexts and Lexical Environments - 1hr 34min
+Section 3: Types and Operators - 1hr 18min
+Section 4: Objects and Functions - 4hr 28min
+Section 5: Object-Oriented Javascript and Prototypal Inheritance - 40min
+Section 6: Building Objects - 1hr 7min
+Section 7: Odds and Ends - 19min
+Section 8: Examining Famous Frameworks and Libraries - 52min
+Section 9: Let's Build a Framework / Library! - 49min
+Section 10: BONUS Lectures - 5min
+Section 11: BONUS: Getting Ready for ECMAScript 6 - 1min
+Section 12: Conclusion - 1min
