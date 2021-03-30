@@ -1,6 +1,6 @@
 DOM 2021 Build Dynamic Websites with JavaScript Part 2
 
-Section 1: Introduction to Events
+Section 1: Introduction to Events - hr 4min
 
     1. Introduction - what is an event
     - An event is an action a user or browser has taken.
@@ -25,4 +25,25 @@ Section 1: Introduction to Events
         - Handlers respond to fired event.
     - There are many different types of events.
 
-    
+    5. Inline Event Listeners - brief introduction
+    - boom() is an inline listener here: <button onclick="boom()"></button>
+
+    6. Do we need to wrap our attribute values in quotation marks?
+    - Some attributes dont need quotation marks.
+        - Quotations only needed when there are spaces, special characters: ` ' " < > =
+
+    8. Inline Properties - brief introduction
+    - event Listeners
+        - 
+
+
+
+
+
+Section 2: Different types of events - 55min
+Section 3: Event Challenges - 45min
+Section 4: Object and node hierarchy - 52min
+Section 5: Capturing and Bubbling - 35min
+Section 6: Event Delegation and Challenges - 1hr 1min
+Section 7: Website Project - A Shopping List - 3hr 20min
+Section 8: Outro - 3min
