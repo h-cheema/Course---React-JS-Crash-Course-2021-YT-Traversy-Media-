@@ -54,11 +54,27 @@ Section 1: Introduction to Events - hr 4min
     - addEventListener() is from the DOM API, not js.
         - Default APIs: Fetch(), Websockets, File System, History API
     - element.addEventListener(event, callback)
-    
-    
 
+    29. EXTRA lecture - 3 ways to define a color
+    - how do we set colors?
+        - by keyword: like red, white, blue. 140 total names. little felxibility
+        - HSL system: hue, saturation, lightness, alpha
+        - RGB: can be defined with hex or functional notation (rgb())
 
+    30. EXTRA lecture - digits, bytes and hexadecimal format
+    - RGB system: hexidecimal
+        - (B)inary dig(IT) - shortened to BIT.
+    - Byte = 8 bits (max 255 bits).
+    - HDR is higher range of colors.
+    - Rounding random with math.floor
 
+    32. EXTRA lecture - toString() method
+    - num.toString(radix)
+        - radix is the number base to return. bin = 2, hex = 16, dec = 10.
+
+    33. What I didn't mention
+    - toString() is available for basically everything.
+    - toString on a number returns the a specific radix instead of inheriting form the proto object's toString().
 
 
 Section 2: Different types of events - 55min
