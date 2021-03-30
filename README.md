@@ -5,7 +5,7 @@
 
 
 ## Front End Web Development:
-| Status | Course | Source | Author | Date Done |
+| Status | Course | Source | Instructor | Date Done |
 | :---: | :---| :----- | :----- | :----- |
 | 🔶 | Bootstrap 4 From Scratch With 5 Projects | Udemy | Brad Traversy |  |
 | 🔶 | ReactJs Tutorial for Beginners | Youtube | Programming with Mosh |  |
@@ -15,7 +15,7 @@
 
 
 ## Core Web Development:
-| Status | Course | Source | Author | Date Done |
+| Status | Course | Source | Instructor | Date Done |
 | :---: | :--- | :----- | :-----| :----- |
 | 🔶 | JavaScript: Understanding the Weird Parts | Udemy | Anthony Alicea |  |
 | 🔶 | DOM 2021 Build Dynamic Websites with JavaScript Part 1 | Udemy | Clyde Matthew |  |
@@ -26,7 +26,7 @@
 
 
 ## Other
-| Status | Course | Source | Author | Date Done |
+| Status | Course | Source | Instructor | Date Done |
 | :---: | :--- | :----- | :----- | :----- |
 | 🔶 | Algorithms (Data Structures) Bootcamp in C++ | Udemy | Holczer Balazs |  |
 | ✔️ | Python Django Dev To Deployment (REST APIs) | Udemy | Brad Traversy | 2020/09/30 |
