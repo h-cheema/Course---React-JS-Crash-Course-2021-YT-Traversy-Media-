@@ -40,11 +40,20 @@ Section 1: Introduction to Events - hr 4min
     - Inline event listeners are undesirable.
         - You should separate your html from JS.
         - If you have 100 buttons you have to change 100 elements manually.
+        - More maintainable to use script listeners.
 
     17. Inline Event Listeners - TEST solution (part 3 of 3)
     - onclick="handle()"
         - onclick = listener
         - handle() = handler
+
+    18. Inline Properties - detailed overview
+    - Event listeners are properties attached html elements.
+
+    23. addEventListener() method - detailed overview
+    - addEventListener() is from the DOM API, not js.
+        - Default APIs: Fetch(), Websockets, File System, History API
+    - element.addEventListener(event, callback)
     
     
 
