@@ -1,0 +1,86 @@
+DOM 2021 Build Dynamic Websites with JavaScript Part 2
+
+Section 1: Introduction to Events - hr 4min
+
+    1. Introduction - what is an event
+    - An event is an action a user or browser has taken.
+        - hover over an element.
+        - clicking a button.
+        - submitting a form.
+        - page finishes loading.
+    - Events take place in the browser itself, given to use by the DOM API. 
+    - Events are not unique to JS
+    - DOM changes in the console are only temporary. Refreshes removes changes.
+    
+    3. The 2 most important things when it comes to events
+    - A) Event listeners:
+        - Responsive interface to a listener on an element.
+        - three types of event listeners.
+            - inline event listener.
+            - inline properties.
+            - event listeners.
+    - B) Event handlers:
+        - every event needs a handler.
+        - Listeners listen for an event firing.
+        - Handlers respond to fired event.
+    - There are many different types of events.
+
+    5. Inline Event Listeners - brief introduction
+    - boom() is an inline listener here: <button onclick="boom()"></button>
+
+    6. Do we need to wrap our attribute values in quotation marks?
+    - Some attributes dont need quotation marks.
+        - Quotations only needed when there are spaces, special characters: ` ' " < > =
+    
+    10. Summary - the 3 ways to add an event listener to HTML elements
+    - All ways to add event listeners work. 
+    - addEventListener() is the best way for organization and capabilities.
+
+    14. Inline Event Listeners - detailed overview
+    - Inline event listeners are undesirable.
+        - You should separate your html from JS.
+        - If you have 100 buttons you have to change 100 elements manually.
+        - More maintainable to use script listeners.
+
+    17. Inline Event Listeners - TEST solution (part 3 of 3)
+    - onclick="handle()"
+        - onclick = listener
+        - handle() = handler
+
+    18. Inline Properties - detailed overview
+    - Event listeners are properties attached html elements.
+
+    23. addEventListener() method - detailed overview
+    - addEventListener() is from the DOM API, not js.
+        - Default APIs: Fetch(), Websockets, File System, History API
+    - element.addEventListener(event, callback)
+
+    29. EXTRA lecture - 3 ways to define a color
+    - how do we set colors?
+        - by keyword: like red, white, blue. 140 total names. little felxibility
+        - HSL system: hue, saturation, lightness, alpha
+        - RGB: can be defined with hex or functional notation (rgb())
+
+    30. EXTRA lecture - digits, bytes and hexadecimal format
+    - RGB system: hexidecimal
+        - (B)inary dig(IT) - shortened to BIT.
+    - Byte = 8 bits (max 255 bits).
+    - HDR is higher range of colors.
+    - Rounding random with math.floor
+
+    32. EXTRA lecture - toString() method
+    - num.toString(radix)
+        - radix is the number base to return. bin = 2, hex = 16, dec = 10.
+
+    33. What I didn't mention
+    - toString() is available for basically everything.
+    - toString on a number returns the a specific radix instead of inheriting form the proto object's toString().
+
+
+Section 2: Different types of events - 55min
+Section 3: Event Challenges - 45min
+Section 4: Object and node hierarchy - 52min
+Section 5: Capturing and Bubbling - 35min
+Section 6: Event Delegation and Challenges - 1hr 1min
+Section 7: Website Project - A Shopping List - 3hr 20min
+Section 8: Outro - 3min

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+</body>
+<script>
+
+    var animal = { kind: 'human' };
+    console.log(animal)
+
+    var asim = {};
+    asim.__proto__ = animal; // add animal proto to asim.
+    console.log("asim.kind = " + asim.kind); // asim.kind now = human.
+    console.log("animal.isPrototypeOf(asim) = " + animal.isPrototypeOf(asim)); // asim.kind now = human.
+
+    asim.kind = 'igloo';
+    console.log(asim.kind);
+    console.log();
+
+    // asim.__proto__.kind = 'hi' // set value of proto.kind
+    // console.log(animal.kind);
+    // console.log(asim.kind);
+
+    var asim = Object.create(animal, {food: {value:"mango"}});
+
+</script>
+</html>

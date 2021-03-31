@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Creating Elements</title>
+        <style>
+            body {
+                background-color: #d9dacd;
+            }
+            h1 {
+                color: rgb(43, 33, 33);
+                font-size: 72px;
+                padding: 20px;
+            }
+            p {
+                font-size: 24px;
+                font-family: sans-serif;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Am I real?</h1>
+        <script>
+            /*
+            let newElement = document.createElement('p');
+            newElement.textContent = "Or am I a figment of your imagination?";
+            
+            // step 1 - get parent
+            let bodyElement = document.querySelector('body');
+            // step 2 - attach p tag to parent element
+            bodyElement.appendChild(newElement);
+
+            // find sibling to precede
+            let scriptElement = document.querySelector('script');
+            bodyElement.insertBefore(newElement, scriptElement); // (newChild, itemToPrecede)
+            */
+
+            
+            let newElement = document.createElement('p');
+            newElement.textContent = "Or am I a figment of your imagination?";
+            // get h1 element
+            let h1Element = document.querySelector('h1');
+            let bodyElement = document.querySelector('body');
+            // trick insertBefore function
+            let h1NextElement = h1Element.nextElementSibling;
+            // grab next element sibling (not just next sibling which could be text node)
+            bodyElement.insertBefore(newElement, h1NextElement);
+            
+            // remove p from DOM (these all work)
+            // bodyElement.removeChild(newElement);
+            // newElement.parentNode.removeChild(newElement)
+            newElement.remove();
+
+        </script>
+    </body>
+</html>

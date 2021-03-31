@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<script>
+
+    // function callbackFunction(json) {
+    //     console.log(json);
+    // }
+
+    function requestJSONP(url) {
+        // create script with passed in URL
+        var script = document.createElement('script');
+        script.src = url;
+
+        // insert script tag into the DOM (append to <head>)
+        var head = getElementsByTagName('head')[0];
+        head.insertBefore(script, null);
+    }
+
+    function processWeather(data) {
+        console.log(data);
+    }
+
+
+</script>
+<!-- <script src="jasonp.js"></script> -->
+<body></body>
+</html>
