@@ -1,0 +1,20 @@
+Bootstrap 4 From Scratch With 5 Projects
+
+Section 1: Intro & Getting Started (32min)
+
+    7. Headings & Basic Typography
+    - rem and em units: Are multipliers.
+        - em goes by parent font size.
+        - rem goes by html root font size.
+        - class="display-1" increases rem
+
+Section 2: Typography & Utilities (59min)
+Section 3: CSS Components (2hr 1min)
+Section 4: Grid System & Flexbox (38min)
+Section 5: JavaScript Widgets (55min)
+Section 6: Simple Theme Boiler Plate Setup (6min)
+Section 7: Project 1 - LoopLab Social Theme (56min)
+Section 8: Project 2 - Mizuxe Book Theme (1hr 13min)
+Section 9: Project 3 - Glozzom Multi Page Them-( 1hr 55min)
+Section 10: Project 4 - Blogen Admin UI (1hr 19min)
+Section 11: Project 5 - Portfoligrid (47min)
