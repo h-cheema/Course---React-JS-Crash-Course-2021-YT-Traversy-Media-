@@ -1,5 +1,6 @@
 Bootstrap 4 From Scratch With 5 Projects
 
+
 Section 1: Intro & Getting Started (32min)
 
     7. Headings & Basic Typography
@@ -12,9 +13,16 @@ Section 1: Intro & Getting Started (32min)
     - block elements spawn width. inline do not.
     - d-inline = display inline
 
-
+    9. Floats & Fixed Positions
     - class="clearfix": Useful for fixing float alignments and spacing. 
     - class="fixed-top": sticks to top of screen
+
+    10. Colors & Background
+    - class="invisible" = visibility: hidden;
+        - different than display: none; which takes out from DOM, removing spacing.
+
+    
+
 
 Section 2: Typography & Utilities (59min)
 Section 3: CSS Components (2hr 1min)
