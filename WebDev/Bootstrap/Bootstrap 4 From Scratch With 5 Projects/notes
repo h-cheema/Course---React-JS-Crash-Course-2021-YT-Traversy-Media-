@@ -21,7 +21,26 @@ Section 1: Intro & Getting Started (32min)
     - class="invisible" = visibility: hidden;
         - different than display: none; which takes out from DOM, removing spacing.
 
-    
+    11. Margin & Padding Spacing
+    - class="mx-5" = margin on x axis
+    - class="my-5" = margin on y axis
+    - class="b-5" = margin on all sides
+    - classes: pt, pb, px: work just like mt, mb, mx but for padding.
+    - class="mx-auto" = margin: 0 auto;
+
+    12. Sizing & Borders
+    - w and h (25,50,75,100,auto)
+        - w-25 = width 25%
+        - h-25 = height 25%
+    - borders
+        - class="border" = simple solid border.
+        - class="border-left" = standard left right top bottom.
+        - class="border border-primary" = solid border + color
+    - rounded borders
+        - class="border rounded"
+        - class="border rounded-top"
+        - class="border rounded-0" = override 
+
 
 
 Section 2: Typography & Utilities (59min)
