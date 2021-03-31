@@ -1,3 +1,5 @@
+JavaScript: Understanding the Weird Parts
+
 Section 1: Getting Started - 15min
 
     1. Introduction and The Goal of This Course
@@ -14,8 +16,36 @@ Section 1: Getting Started - 15min
     - Understanding weird parts = Understanding the hows and whys.
 
 
-
 Section 2: Execution Contexts and Lexical Environments - 1hr 34min
+
+    6. Conceptual Aside: Syntax Parsers, Execution Contexts, and Lexical Environments
+    - Syntax parser
+        -Translates syntax to computer instructions.
+        - Parser can do extra stuff to translation.
+    - Lexical Environment 
+        - Where it's written and what surrounds it.
+        - Where the code physically sits in memory.
+    - Execution Context
+        - Wrapper helps manage the running code.
+        - Can do beyond what your code does.
+    
+    7. Conceptual Aside: Name/Value Pairs and Objects
+    - Name can be defined many times but can only have one value. (Exe context)
+    - Object: Collection of name value pairs.
+        - value of a name could be another object. This can nest downwards.
+    
+    9. The Global Environment and The Global Object
+    - js engine creates a "global object" and "this" when you run code.
+    - Global: means not inside a function.
+    - js wraps your code in the execution context
+
+    11. Conceptual Aside: Javascript and 'undefined'
+    - 
+
+
+
+
+
 Section 3: Types and Operators - 1hr 18min
 Section 4: Objects and Functions - 4hr 28min
 Section 5: Object-Oriented Javascript and Prototypal Inheritance - 40min
