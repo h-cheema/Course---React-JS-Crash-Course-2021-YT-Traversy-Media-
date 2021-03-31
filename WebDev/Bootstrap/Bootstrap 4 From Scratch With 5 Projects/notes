@@ -8,6 +8,14 @@ Section 1: Intro & Getting Started (32min)
         - rem goes by html root font size.
         - class="display-1" increases rem
 
+    8. Text Alignment & Display
+    - block elements spawn width. inline do not.
+    - d-inline = display inline
+
+
+    - class="clearfix": Useful for fixing float alignments and spacing. 
+    - class="fixed-top": sticks to top of screen
+
 Section 2: Typography & Utilities (59min)
 Section 3: CSS Components (2hr 1min)
 Section 4: Grid System & Flexbox (38min)
