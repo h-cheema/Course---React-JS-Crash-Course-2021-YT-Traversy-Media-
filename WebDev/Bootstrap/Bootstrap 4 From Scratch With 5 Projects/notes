@@ -10,7 +10,7 @@ Section 1: Intro & Getting Started (32min)
         - class="display-1" increases rem
 
     8. Text Alignment & Display
-    - block elements spawn width. inline do not.
+    - block elements spans width. inline does not.
     - d-inline = display inline
 
     9. Floats & Fixed Positions
@@ -44,6 +44,20 @@ Section 1: Intro & Getting Started (32min)
 
 
 Section 2: Typography & Utilities (59min)
+
+    15. Buttons & Button Groups
+    - btn-lg
+    - btn-outline-primary
+    - btn-primary active = button state pressed
+    - btn-primary disabled = button state dimmed out
+    - btn-group = on div, attaches buttons side by side.
+        - btn-group-vertical
+    - btn-toolbar = contains btn-groups making a group of groups.
+    -* dropdown (3_2_buttons.html)
+
+
+
+
 Section 3: CSS Components (2hr 1min)
 Section 4: Grid System & Flexbox (38min)
 Section 5: JavaScript Widgets (55min)
