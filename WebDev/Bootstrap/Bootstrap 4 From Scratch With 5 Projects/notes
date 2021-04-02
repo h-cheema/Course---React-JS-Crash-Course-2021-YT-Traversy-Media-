@@ -66,6 +66,14 @@ Section 2: Typography & Utilities (59min)
     17. List Groups & Badges
     - list-group-flush = no side borders on list
 
+    18
+    - <input class="form-control" = adds many styles and wraps label in input.
+    - <input class="form-control is-valid" type="text" id="username">
+        - is-valid and is-invalid can be set through js
+    - <input class="form-control is-invalid" type="text" id="password2">
+      <div class="invalid-feedback">Password does not match </div>
+            - invalid-feedback paired with is-valid or is-invalid
+
 
 
 Section 3: CSS Components (2hr 1min)
