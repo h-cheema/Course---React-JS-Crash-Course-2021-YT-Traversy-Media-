@@ -55,6 +55,16 @@ Section 2: Typography & Utilities (59min)
     - btn-toolbar = contains btn-groups making a group of groups.
     -* dropdown (3_2_buttons.html)
 
+    16. Navbar & Navs
+    - <nav class="navbar navbar-expand-sm navbar-dark bg-light mt-2 bg-dark">
+        - navbar-dark goes with something like bg-dark
+    - <a class="nav-link active" href="#">Link 2</a>
+        - nav-link active = highlighted link
+    - <ul class="mt-5 nav nav-pills nav-fill">
+        - nav-fill justifies/spans the ul
+
+    17. List Groups & Badges
+    - list-group-flush = no side borders on list
 
 
 
