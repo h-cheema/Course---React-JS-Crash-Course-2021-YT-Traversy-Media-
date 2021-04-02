@@ -34,7 +34,9 @@ Section 1: Introduction to Events - hr 4min
     
     10. Summary - the 3 ways to add an event listener to HTML elements
     - All ways to add event listeners work. 
-    - addEventListener() is the best way for organization and capabilities.
+    - 1. inline html: <button onclick="handleEvent()" />
+    - 2. js: button.onclick = () => {}
+    - 3. addEventListener() is the best way for organization and capabilities.
 
     14. Inline Event Listeners - detailed overview
     - Inline event listeners are undesirable.
@@ -78,6 +80,9 @@ Section 1: Introduction to Events - hr 4min
 
 
 Section 2: Different types of events - 55min
+
+    - 
+
 Section 3: Event Challenges - 45min
 Section 4: Object and node hierarchy - 52min
 Section 5: Capturing and Bubbling - 35min
