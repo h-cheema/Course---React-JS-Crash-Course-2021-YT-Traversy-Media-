@@ -81,7 +81,17 @@ Section 1: Introduction to Events - hr 4min
 
 Section 2: Different types of events - 55min
 
+    39. Event types
+    - All events inherit from the event object.
+    - Each event is unique with its own properties and methods.
+    - Most common events: touch, form, keyboard, window, mouse.
+    
+    41. Keydown event - example
+    - Each event has it's own unique set of properties.
     - 
+
+
+
 
 Section 3: Event Challenges - 45min
 Section 4: Object and node hierarchy - 52min
