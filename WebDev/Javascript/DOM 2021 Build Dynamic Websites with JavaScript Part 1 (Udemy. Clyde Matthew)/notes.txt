@@ -116,7 +116,6 @@ Section 4: Nodes (42m)
             - accessed by name, id or index number
         HTMLC = live, NL = static
 
-
 Section 5: Traversing the DOM (1hr 8m)
     65.
     - Getting parent node: "parentNode" and "parentElement"

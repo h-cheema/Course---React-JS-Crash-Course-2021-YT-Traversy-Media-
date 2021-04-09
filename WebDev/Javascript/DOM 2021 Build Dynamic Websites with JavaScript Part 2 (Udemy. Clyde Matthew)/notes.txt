@@ -89,8 +89,9 @@ Section 2: Different types of events - 55min
     41. Keydown event - example
     - Each event has it's own unique set of properties.
 
-    45. Form: building our page - HTML + CSS
-    - 
+    46. How to find forms and its default behavior
+    - Submit is fired on the form when clicked, not on the button.
+    
 
 
 
