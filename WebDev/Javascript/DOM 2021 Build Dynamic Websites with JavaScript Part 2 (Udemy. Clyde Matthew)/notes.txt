@@ -92,12 +92,14 @@ Section 2: Different types of events - 55min
     46. How to find forms and its default behavior
     - Submit is fired on the form when clicked, not on the button.
 
-    47.
+    47. Input event, focus event and copy/paste events
     - let nameText = document.querySelector('input[type=text]');
         - getting an element with specific attribute value
     - nameText.addEventListener('copy', () => {}
         - event listens for copy like ctrl+c
-
+    
+    48. Touch and Window events
+    - Touch is not supported on all phones.
 
 
 Section 3: Event Challenges - 45min
