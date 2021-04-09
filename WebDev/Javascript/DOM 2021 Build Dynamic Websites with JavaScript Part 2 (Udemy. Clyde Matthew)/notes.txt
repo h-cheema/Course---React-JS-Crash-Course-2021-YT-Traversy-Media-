@@ -88,6 +88,8 @@ Section 2: Different types of events - 55min
     
     41. Keydown event - example
     - Each event has it's own unique set of properties.
+
+    45. Form: building our page - HTML + CSS
     - 
 
 
