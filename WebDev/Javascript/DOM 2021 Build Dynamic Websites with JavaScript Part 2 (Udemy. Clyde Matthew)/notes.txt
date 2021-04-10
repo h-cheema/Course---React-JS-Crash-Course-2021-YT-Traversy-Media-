@@ -102,8 +102,43 @@ Section 2: Different types of events - 55min
     - Touch is not supported on all phones.
 
 
-Section 3: Event Challenges - 45min
 Section 4: Object and node hierarchy - 52min
+
+    61. JS objects vs DOM objects in the console
+    - Prototype is baiscally a parent to inherit from.
+    - Object types:
+        - JS objects = native objects.
+        - Broswer objects = host objects.
+
+    62. Advanced topic
+
+
+    63. Host vs Native Objects
+    
+
+    64. The importance of understanding inheritance
+    
+
+    65. Finding the createElement() method
+    
+
+    66. Element node - object hierarchy
+    
+
+    67. Quick recap on object hierarchy
+    
+
+    68. What is DOM extension?
+    
+
+    69. Adding our own DOM extension - practical example
+    
+
+    70. Are DOM extensions a good thing?
+    
+
+    71. The problems with DOM extensions are ...
+
 Section 5: Capturing and Bubbling - 35min
 Section 6: Event Delegation and Challenges - 1hr 1min
 Section 7: Website Project - A Shopping List - 3hr 20min
