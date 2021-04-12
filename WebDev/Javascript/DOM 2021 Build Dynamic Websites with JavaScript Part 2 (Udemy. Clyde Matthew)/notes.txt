@@ -145,16 +145,11 @@ Section 4: Object and node hierarchy - 52min
 
     68. What is DOM extension?
     - DOM objects are host objects that inherit from the DOM interface.
-    - 
-    
-
-    69. Adding our own DOM extension - practical example
-    
-
-    70. Are DOM extensions a good thing?
-    
 
     71. The problems with DOM extensions are ...
+    - Prototype specific. Unavailable to other node objects.
+    - Can interfere with other already defined DOM objects.
+
 
 Section 5: Capturing and Bubbling - 35min
 Section 6: Event Delegation and Challenges - 1hr 1min
