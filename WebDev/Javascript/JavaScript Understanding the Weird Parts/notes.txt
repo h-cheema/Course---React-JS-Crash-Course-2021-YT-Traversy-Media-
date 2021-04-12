@@ -58,14 +58,17 @@ Section 2: Execution Contexts and Lexical Environments - 1hr 34min
     - Synchronous execution: One at a time, and in order.
 
     15. Functions, Context, and Variable Environments
-    - 
-
-    16. The Scope Chain
+    - A scope is an execution context.
 
     17. Scope, ES6, and let
+    - let
+        - Can be used instead of var.
+        - Uses block scoping.
 
     18. What About Asynchronous Callbacks?
-
+    - Whats happens inside the JS engine is specifically synchronous.
+    - What happens outside the engine can be asynchronous.
+    - 
 
 
 Section 3: Types and Operators - 1hr 18min
