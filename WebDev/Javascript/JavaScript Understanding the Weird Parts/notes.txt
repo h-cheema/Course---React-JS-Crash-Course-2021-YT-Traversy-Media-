@@ -1,4 +1,7 @@
 JavaScript: Understanding the Weird Parts
+git commit -am "JavaScript UTWP - Finished lecture /85"
+
+
 
 Section 1: Getting Started - 15min
 
@@ -40,9 +43,28 @@ Section 2: Execution Contexts and Lexical Environments - 1hr 34min
     - js wraps your code in the execution context
 
     11. Conceptual Aside: Javascript and 'undefined'
+    - === is safer than ==
+    - Uncaught ReferenceError = Thing is not in memory at all.
+    - Undefined = a special value initially set by JS. Undefined != null.
+        - var a; 
+            - Always better to let js handle it like this.
+            - This way you know if something is unintentionally undefined.
+        - var a - undefined;
+            - Manual way to set undefined. Hard to know if you or js set it.
+            - Harder to know if you made something undefined.
+
+    13. Conceptual Aside: Single Threaded, Synchronous Execution
+    - Single threaded: One command is executed at a time.
+    - Synchronous execution: One at a time, and in order.
+
+    15. Functions, Context, and Variable Environments
     - 
 
+    16. The Scope Chain
 
+    17. Scope, ES6, and let
+
+    18. What About Asynchronous Callbacks?
 
 
 
