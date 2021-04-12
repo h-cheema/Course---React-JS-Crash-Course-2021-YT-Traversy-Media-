@@ -110,25 +110,42 @@ Section 4: Object and node hierarchy - 52min
         - JS objects = native objects.
         - Broswer objects = host objects.
 
-    62. Advanced topic
-
-
-    63. Host vs Native Objects
+    62. Advanced topic (Native vs Host)
+    - Every object and node has the prototype property
+    - A node is a generic term for any object in the DOM
+    - Object types:
+        - Native
+            - core predefined objects in ECMA
+            - Object, Function, String, etc...
+        - Host
+            - Specific env for specific purpose
+            - Not defined in ECMA
+            - Not all envs have the same host obj
+            - Node.js host objs: HTTP, HTTPS, URL, etc...
+            - Browser host objs: window, document, history, etc...
+    - window obj
+        - Let's us access DOM, BOM, JS.
+        - root obj, given to us by the browser.
+    - DOM vs BOM
+        - Both are host objs given to use by the broswer.
+        - DOM is governed by W3C.
+        - BOM covers view rather than content.
     
-
-    64. The importance of understanding inheritance
-    
-
-    65. Finding the createElement() method
-    
-
     66. Element node - object hierarchy
-    
-
-    67. Quick recap on object hierarchy
-    
+    - Prototype of Object is null.
+    - In the browser, DOM objs are also JS objs, but not vice versa.
+    - Object hierarchy
+        - EventTarget: A DOM interface. Is the root obj. Lets all nodes to use events.
+        - Node: General node properties. 
+            - DOM traversal. Methods like parentNode, childNodes, etc... Many elements inherit from Node.
+        - Element: Traveses only DOM elements. nextElementSibling, children, querySelector.
+        - HTMLElement: Available to any HTML element on page.
+        - HTMLParagraphElement: Each tag inherits from its own HTML...Element. Like HTMLAnchorElement.
+        - DOM Object <p></p>:
 
     68. What is DOM extension?
+    - DOM objects are host objects that inherit from the DOM interface.
+    - 
     
 
     69. Adding our own DOM extension - practical example
