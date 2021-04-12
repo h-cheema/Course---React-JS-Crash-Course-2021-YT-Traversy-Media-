@@ -152,6 +152,8 @@ Section 4: Object and node hierarchy - 52min
 
 
 Section 5: Capturing and Bubbling - 35min
+
+
 Section 6: Event Delegation and Challenges - 1hr 1min
 Section 7: Website Project - A Shopping List - 3hr 20min
 Section 8: Outro - 3min
