@@ -113,12 +113,14 @@ Section 3: Types and Operators - 1hr 18min
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
 
     27. Existence and Booleans
-    - 
+    - Coercion can be used to our advantage.
 
     28. Default Values
-    - 
+    - undefined || 'hello' = 'hello'
+    - || returns the first value that can be coerced into true.
 
     29. Framework Aside: Default Values
+    - <script> stacked on top of one another all get merged downwards.
     - 
 
 
