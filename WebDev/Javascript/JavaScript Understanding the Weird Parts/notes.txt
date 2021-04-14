@@ -68,10 +68,50 @@ Section 2: Execution Contexts and Lexical Environments - 1hr 34min
     18. What About Asynchronous Callbacks?
     - Whats happens inside the JS engine is specifically synchronous.
     - What happens outside the engine can be asynchronous.
-    - 
 
 
 Section 3: Types and Operators - 1hr 18min
+
+    19. Conceptual Aside: Types and Javascript
+    - JS is dynamically typed.
+
+    20. Primitive Types
+    - Primitives represent a single value, not an object.
+    - object = collection of key value pairs.
+    - Undefined = lack of existence and code did not set a value (programmer should not assign this).
+    - null = variable is equal to nothing (set by programmer).
+    - number = float
+    - string = sequence of characters. In js a string is a prim type.
+    - symbol = value is kept private for internal use.
+
+    21. Conceptual Aside: Operators
+    - 
+
+    22. Operator Precedence and Associativity
+    - 
+
+    23. Operator Precedence and Associativity Table
+    - 
+
+    24. Conceptual Aside: Coercion
+    - 
+
+    25. Comparison Operators
+    - 
+
+    26. Equality Comparisons Table
+    - 
+
+    27. Existence and Booleans
+    - 
+
+    28. Default Values
+    - 
+
+    29. Framework Aside: Default Values
+    - 
+
+
 Section 4: Objects and Functions - 4hr 28min
 Section 5: Object-Oriented Javascript and Prototypal Inheritance - 40min
 Section 6: Building Objects - 1hr 7min
