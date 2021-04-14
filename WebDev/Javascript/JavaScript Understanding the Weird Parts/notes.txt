@@ -85,22 +85,32 @@ Section 3: Types and Operators - 1hr 18min
     - symbol = value is kept private for internal use.
 
     21. Conceptual Aside: Operators
-    - 
+    - 3 + 4 = infix notation.
+    - + 3 4 = prefix notation.
+    - 3 4 + = profix notation.
+    - console.log(+(3,4)) = valid js.
 
     22. Operator Precedence and Associativity
-    - 
+    - Means which operator gets called first
+    - Associativity = left to right or right to left
+    - a = b is a function that returns a value (value to the right)
 
     23. Operator Precedence and Associativity Table
-    - 
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 
     24. Conceptual Aside: Coercion
-    - 
+    - Means converting a value from one type to another type.
+    - Coercion happens behind the scenes, like 1 + '2' will become '12'.
 
     25. Comparison Operators
-    - 
-
-    26. Equality Comparisons Table
-    - 
+    - Number(x) = check what x coerces to.
+    - Coercion can cause unexpected results that cause very tricky bugs.
+    - Number(undefined) = NaN.
+    - Number(null) = 0.
+    - === will help prevent unexpectedly coerced comparison. 
+        - false == 0 = true
+        - false === 0 = false
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
 
     27. Existence and Booleans
     - 
