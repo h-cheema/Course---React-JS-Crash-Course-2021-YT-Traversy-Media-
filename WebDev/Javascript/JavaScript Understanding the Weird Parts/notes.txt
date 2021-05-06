@@ -18,7 +18,6 @@ Section 1: Getting Started - 15min
     - You should build a very strong core js skillset first.
     - Understanding weird parts = Understanding the hows and whys.
 
-
 Section 2: Execution Contexts and Lexical Environments - 1hr 34min
 
     6. Conceptual Aside: Syntax Parsers, Execution Contexts, and Lexical Environments
@@ -68,7 +67,6 @@ Section 2: Execution Contexts and Lexical Environments - 1hr 34min
     18. What About Asynchronous Callbacks?
     - Whats happens inside the JS engine is specifically synchronous.
     - What happens outside the engine can be asynchronous.
-
 
 Section 3: Types and Operators - 1hr 18min
 
@@ -120,16 +118,193 @@ Section 3: Types and Operators - 1hr 18min
     - || returns the first value that can be coerced into true.
 
     29. Framework Aside: Default Values
-    - <script> stacked on top of one another all get merged downwards.
+    - <script> stacked on top of one another all get merged downwards
+
+
+Section 4: Objects and Functions
+
+    30. Objects and the Dot (15min)
+    - 
+
+    31. Objects and Object Literals (11min)
+    - 
+
+    32. Framework Aside: Faking Namespaces (8min)
+    - 
+
+    33. JSON and Object Literals (7min)
+    - 
+
+    34. Functions are Objects (8min)
+    - 
+
+    35. Function Statements and Function Expressions (21min)
+    - 
+
+    36. Conceptual Aside: By Value vs By Reference (16min)
+    - 
+
+    37. Objects, Functions, and 'this' (21min)
+    - 
+
+    38. Conceptual Aside: Arrays - Collections of Anything (6min)
+    - 
+
+    39. 'arguments' and spread (12min)
+    - 
+
+    40. Framework Aside: Function Overloading (5min)
+    - 
+
+    41. Conceptual Aside: Syntax Parsers (2min)
+    - 
+
+    42. Dangerous Aside: Automatic Semicolon Insertion (6min)
+    - 
+
+    43. Framework Aside: Whitespace (4min)
+    - 
+
+    44. Immediately Invoked Functions Expressions (IIFEs) (17min)
+    - 
+
+    45. Framework Aside: IIFEs and Safe Code (8min)
+    - 
+
+    46. Understanding Closures (11min)
+    - 
+
+    47. Understanding Closures - Part 2 (19min)
+    - 
+
+    48. Framework Aside: Function Factories (12min)
+    - 
+
+    49. Closures and Callbacks (8min)
+    - 
+
+    50. call(), apply(), and bind()  (21min))
+    - 
+
+    51. Functional (Programming) (20min)
+    - 
+
+    52. Functional Programming - Part 2 (8min)
     - 
 
 
-Section 4: Objects and Functions - 4hr 28min
-Section 5: Object-Oriented Javascript and Prototypal Inheritance - 40min
-Section 6: Building Objects - 1hr 7min
-Section 7: Odds and Ends - 19min
-Section 8: Examining Famous Frameworks and Libraries - 52min
-Section 9: Let's Build a Framework / Library! - 49min
-Section 10: BONUS Lectures - 5min
-Section 11: BONUS: Getting Ready for ECMAScript 6 - 1min
-Section 12: Conclusion - 1min
+Section 5: Object-Oriented Javascript and Prototypal Inheritance (40min)
+
+    53. Conceptual Aside: Classical vs Prototypal Inheritance (5min)
+    - 
+
+    54. Understanding the Prototype (14min)
+    - 
+
+    55. Everything is an Object (or a primitive) (6min)
+    - 
+
+    56. Reflection and Extend (15min)
+    - 
+
+
+Section 6: Building Objects (7min)
+
+    57. Function Constructors, 'new', and the History of Javascript (16min)
+    - 
+
+    58. Function Constructors and '.prototype' (10min)
+    - 
+
+    59. Dangerous Aside: 'new' and functions (4min)
+    - 
+
+    60. Conceptual Aside: Built-In Function Constructors (11min)
+    - 
+
+    61. Dangerous Aside: Built-In Function Constructors (4min)
+    - 
+
+    62. Dangerous Aside: Arrays and for..in (3min)
+    - 
+
+    63. Object.create and Pure Prototypal Inheritance (13min)
+    - 
+
+    64. ES6 and Classes (6min)
+    - 
+
+Section 7: Odds and Ends (19min)
+
+    65. Initialization (6min)
+    - 
+
+    66. 'typeof' , 'instanceof', and Figuring Out What Something Is (7min)
+    - 
+
+    67. Strict Mode (6min)
+    - 
+
+    68. Strict Mode Reference (1min)
+    - 
+
+Section 8: Examining Famous Frameworks and Libraries (52min)
+
+    69. Learning From Other's Good Code (4min)
+    - 
+
+    70. Deep Dive into Source Code: jQuery - Part 1 (22min)
+    - 
+
+    71. Deep Dive into Source Code: jQuery - Part 2 (16min)
+    - 
+
+    72. Deep Dive into Source Code: jQuery - Part 3 (11min)
+    - 
+
+Section 9: Let's Build a Framework / Library! (49min)
+
+    73. Requirements (3min)
+    - 
+
+    74. Structuring Safe Code (3min)
+    - 
+
+    75. Our Object and Its Prototype (9min)
+    - 
+
+    76. Properties and Chainable Methods (17min)
+    - 
+
+    77. Adding jQuery Support (5min)
+    - 
+
+    78. Good Commenting (2min)
+    - 
+
+    79. Let's Use Our Framework (8min)
+    - 
+
+    80. A Side Note (1min)
+    - 
+
+Section 10: BONUS Lectures (5min)
+
+    81. TypeScript, ES6, and Transpiled Languages (5min)
+    - 
+
+    82. Transpiled Languages References (1min)
+    - 
+
+Section 11: BONUS: Getting Ready for ECMAScript 6 (1min)
+
+    83. Existing and (Upcoming) Features (1min)
+    - 
+
+    84. ES6 Features Reference (1min)
+    - 
+
+Section 12: Conclusion (1min)
+
+    85. Learning to Love the Weird Parts (1min)
+    - 
