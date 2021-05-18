@@ -1,0 +1,103 @@
+Algorithms (Data Structures) Bootcamp in C++
+
+
+Section 2: Algorithms - Recursion
+
+    2. What are stack and heap memory?
+    - Both are their own specific regions on RAM. Data types are stack and heap.
+    - Stack: small, fast access, stores func calls and local vars, no fragmentation.
+        - LIFO - last in first out.
+    - Heap: large, slow access, stores objects, can become fragmented.
+        - FIFO - first in first out.
+    
+    4. What is recursion (recursive function call)?
+    - Recursion is one of the central computer science ideas.
+    - We can transform recursion into iteration and back.
+    - Recursion is very elegant.
+    - Base cases are used to avoid infinite loops.
+    - Head and tail recursion:
+        - Tail: recursive call is at end of function. Similar to a for loop.
+        - Head: recursive call is at the start of the function. method saves state, requiring more memory.
+
+    6. Recursion and stack memory (stack overflow)
+    - Function calls and values are stored on the stack.
+    - Head recursion may cause stack overflow.
+    - Tail recursion uses an accumulator to track current result.
+        - There are no unknown variables. 
+        - Return result when hitting the base case.
+        - Get rid of previous frame each call because value is being stored in a variable.
+
+    7. Factorial problem
+    - Head recursion does not know the base case. It calls through itself until n = 1 and uses itself as a parameter with the next case.
+    - Tail recursion stores the "result so far" in an accumulator variable. Head recursion calls itself until (n = 1) is reached.
+
+    8. Fibonacci numbers problem
+    - 
+
+    9. Fibonacci numbers - visualizing the stack memory
+    - 
+
+    10. Fibonacci-numbers with tail recursion
+    - 
+
+    11. Towers of Hanoi introduction
+    - 
+
+    12. Towers of Hanoi implementation
+    - 
+
+    13. Towers of Hanoi - visualizing the stack
+    - 
+
+    14. Recursion and iteration (differences)
+    - 
+
+Section 3: Search Algorithms
+
+
+    15. What is linear search?
+    - 
+
+    16. Linear search implementation
+    - 
+
+    17. What is binary (logarithmic) search?
+    - 
+
+    18. Binary search implementation
+    - 
+
+Section 4: Algorithms - Backtracking
+
+    19. What is backtracking?
+    - 
+
+    20. Brute-force search and backtracking
+    - 
+
+    21. N-queens problem introduction
+    - 
+
+    22. N-queens problem implementation
+    - 
+
+    23. N-queens problem and the stack memory
+    - 
+
+    24. Coloring problem introduction
+    - 
+
+    25. Coloring problem visualization
+    - 
+
+    26. Coloring problem implementation
+    - 
+
+    27. Knight's tour problem introduction
+    - 
+
+    28. Knight's tour problem implementation
+    - 
+
+    29. What is the problem with backtracking?
+    - 
