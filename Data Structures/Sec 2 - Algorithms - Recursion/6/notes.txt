@@ -31,11 +31,8 @@ Section 2: Algorithms - Recursion
     - Head recursion does not know the base case. It calls through itself until n = 1 and uses itself as a parameter with the next case.
     - Tail recursion stores the "result so far" in an accumulator variable. Head recursion calls itself until (n = 1) is reached.
 
-    8. Fibonacci numbers problem
-    - 
-
     9. Fibonacci numbers - visualizing the stack memory
-    - 
+    - Fibonacci can be calculated with stack
 
     10. Fibonacci-numbers with tail recursion
     - 
