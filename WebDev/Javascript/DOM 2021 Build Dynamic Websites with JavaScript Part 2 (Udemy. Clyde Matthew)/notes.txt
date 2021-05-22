@@ -157,14 +157,27 @@ Section 5: Capturing and Bubbling - 35min
     - Event handlers can be nested and will bubble all the way up to the DOM object. 
     - Tree of event handlers all fire starting from the last child.
 
-    73. An event is not an isolated occurrence
-    - 
-
     74. The 2 phases of an event - capturing & bubbling
+
+        - Click events do not originate at the element they are linked to.
+        - All events originate at the root object, which is the Window object.
+        
+        - When a event is fired, the event makes its way through the nodes from the window object to the event.
+            - The event notifies each node.
+            - Once it reaches the target, it traces its steps back up to the root and notifies each node of the event.
+
+        - Phase 1 = event capturing
+        - Phase 2 = event bubbling
 
     75. How to listen to an event during the capturing phase
 
+        - element.addEventListener('click', clickHandler, true)
+        - true = listen to event on capture phase.
+        - two true args = bubbling phase.
+
     76. Example - lets listen to an event during both phases
+
+        - 
 
     77. Example - capturing and bubbling using the for ... of loop
 
