@@ -153,6 +153,27 @@ Section 4: Object and node hierarchy - 52min
 
 Section 5: Capturing and Bubbling - 35min
 
+    72. Section introduction
+    - Event handlers can be nested and will bubble all the way up to the DOM object. 
+    - Tree of event handlers all fire starting from the last child.
+
+    73. An event is not an isolated occurrence
+    - 
+
+    74. The 2 phases of an event - capturing & bubbling
+
+    75. How to listen to an event during the capturing phase
+
+    76. Example - lets listen to an event during both phases
+
+    77. Example - capturing and bubbling using the for ... of loop
+
+    78. Who cares about capturing vs bubbling?
+
+    79. How to stop event capturing and event bubbling?
+
+    80. Example of stopPropagation()
+
 
 Section 6: Event Delegation and Challenges - 1hr 1min
 Section 7: Website Project - A Shopping List - 3hr 20min
