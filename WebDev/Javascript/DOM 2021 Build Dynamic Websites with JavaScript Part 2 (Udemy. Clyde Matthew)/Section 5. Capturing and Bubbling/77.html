@@ -1,0 +1,30 @@
+<html>
+
+    <head>
+        <style>
+            body * {
+                margin: 10px;
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <div> DIV
+            <form> FORM
+                <p>P</p>
+            </form>
+        </div>
+
+        <script>
+            for (const element of document.querySelectorAll('*')) {
+
+                element.addEventListener('click', () => {alert(`Capturing: ${element.tagName}`)}, true)
+
+                element.addEventListener('click', () => {alert(`Bubbling: ${element.tagName}`)})
+
+            }
+        </script>
+
+    </body>
+ 
+</html>

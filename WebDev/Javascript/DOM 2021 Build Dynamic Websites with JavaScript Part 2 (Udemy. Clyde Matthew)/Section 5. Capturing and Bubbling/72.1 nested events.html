@@ -1,0 +1,20 @@
+<html>
+
+    <head>
+        <style>
+            body * {
+                margin: 10px;
+                border: 1px solid rgb(0, 120, 80)
+            }
+        </style>
+    </head>
+
+    <body onclick="alert('Body')">
+        <div onclick="alert('Outer Div')">OUTER DIV
+            <div onclick="alert('Inner Div')">INNER DIV
+                <p onclick="alert('p')">P</p>
+            </div>
+        </div>
+    </body>
+
+</html>
