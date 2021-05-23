@@ -191,8 +191,54 @@ Section 5: Capturing and Bubbling - 35min
         - e.stopImmeadiatePropagation() stops all events that capture to e and bubble up from e.
         
 
-
-
 Section 6: Event Delegation and Challenges - 1hr 1min
+
+    81. Event Delegation Introduction
+    - Choosing common ancestor and rely on bubbling instead of adding events on every item.
+    - You can access the event object and make changes to children within in.
+
+    82. Box Challenge - intro
+    - 
+
+    83. Box Challenge - build
+    - 
+
+    84. Box Challenge - solution
+    - 
+
+    85. What is the classList property?
+    - 
+
+    86. Box Challenge - perfecting our solution
+    - 
+
+    87. Summary of the box challenge
+    - 
+
+    88. Quote Challenge - intro
+    - 
+
+    89. Quote Challenge - build
+    - 
+
+    90. Quote Challenge - solution
+    - 
+
+    91. parentNode vs parentElement
+    - 
+
+    92. List Challenge - intro
+    - 
+
+    93. List Challenge - build
+    - 
+
+    94. List Challenge - solution
+    - 
+
+    95. tagName property - why all CAPS?
+    - 
+
+
 Section 7: Website Project - A Shopping List - 3hr 20min
 Section 8: Outro - 3min
