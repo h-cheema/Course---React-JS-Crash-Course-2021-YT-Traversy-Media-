@@ -1,0 +1,10 @@
+#delegation_table{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background: #999;
+}
+
+#delegation_table td.highlight {
+    background: #960;
+}

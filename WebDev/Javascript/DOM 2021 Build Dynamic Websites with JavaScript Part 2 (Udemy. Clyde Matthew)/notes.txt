@@ -197,17 +197,10 @@ Section 6: Event Delegation and Challenges - 1hr 1min
     - Choosing common ancestor and rely on bubbling instead of adding events on every item.
     - You can access the event object and make changes to children within in.
 
-    82. Box Challenge - intro
-    - 
-
-    83. Box Challenge - build
-    - 
-
-    84. Box Challenge - solution
-    - 
-
     85. What is the classList property?
-    - 
+    - classList is an API which returns a DOMTokenList.
+    - Good for modifying css tags. Add, remove, contains and value.
+    - Returns a list that has the functions above ^.
 
     86. Box Challenge - perfecting our solution
     - 

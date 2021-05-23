@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="83 styles.css">
+    </head>
+    <body>
+        <table id="delegation_table">
+            <tr>
+                <th colspan="3"><em>Delegation</em> Table: Click to change color.</th>
+            </tr>
+            <tr>
+                <td><strong>1</strong></td>
+                <td><strong>2</strong></td>
+                <td><strong>3</strong></td>
+            </tr>
+            <tr>
+                <td><strong>4</strong></td>
+                <td><strong>5</strong></td>
+                <td><strong>6</strong></td>
+            </tr>
+            <tr>
+                <td><strong>7</strong></td>
+                <td><strong>8</strong></td>
+                <td><strong>9</strong></td>
+            </tr>
+        </table>
+    </body>
+    <script>
+
+        let table = document.getElementById('delegation_table');
+
+        // attach event listener.
+        table.addEventListener('click', changeColor);
+
+        function changeColor(e) {
+            let target = e.target;
+            target.classList.add('highlight');
+        }
+
+    </script>
+</html>

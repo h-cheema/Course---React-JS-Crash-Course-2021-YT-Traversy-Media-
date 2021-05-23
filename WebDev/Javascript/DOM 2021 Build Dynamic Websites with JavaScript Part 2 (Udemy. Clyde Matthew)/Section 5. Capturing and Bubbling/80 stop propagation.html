@@ -1,0 +1,36 @@
+<html>
+    <body>
+
+
+        <div id="three-a">
+            <button id="button1">Button One</button>
+        </div>
+
+
+        <script>
+
+            let buttonOne = document.getElementById('button1');
+
+            // capturing phase
+            buttonOne.addEventListener('click', clickHandler, true);
+
+            // bubbling phase (default)
+            buttonOne.addEventListener('click', clickHandler, false);
+
+            // add listener on our div parent element
+            let threeA = document.getElementById('three-a');
+            threeA.addEventListener('click', quitIt, true);
+
+            function quitIt(e) {
+                console.log('You have been stopped in your tracks');
+                e.stopPropagation();
+            }
+            
+            function clickHandler() {
+                console.log('I have been clicked.');
+            }
+
+        </script>
+
+    </body>
+</html>
