@@ -194,43 +194,24 @@ Section 5: Capturing and Bubbling - 35min
 Section 6: Event Delegation and Challenges - 1hr 1min
 
     81. Event Delegation Introduction
-    - Choosing common ancestor and rely on bubbling instead of adding events on every item.
-    - You can access the event object and make changes to children within in.
+
+        - Choosing common ancestor and rely on bubbling instead of adding events on every item.
+        - You can access the event object and make changes to children within in.
 
     85. What is the classList property?
-    - classList is an API which returns a DOMTokenList.
-    - Good for modifying css tags. Add, remove, contains and value.
-    - Returns a list that has the functions above ^.
 
-    86. Box Challenge - perfecting our solution
-    - 
-
-    87. Summary of the box challenge
-    - 
-
-    88. Quote Challenge - intro
-    - 
-
-    89. Quote Challenge - build
-    - 
+        - classList is an API which returns a DOMTokenList.
+        - Good for modifying css tags. Add, remove, contains and value.
+        - Returns a list that has the functions above ^.
 
     90. Quote Challenge - solution
-    - 
 
-    91. parentNode vs parentElement
-    - 
-
-    92. List Challenge - intro
-    - 
-
-    93. List Challenge - build
-    - 
-
-    94. List Challenge - solution
-    - 
+        - parentElement.remove() removes a node from the DOM.
 
     95. tagName property - why all CAPS?
-    - 
+    
+        - tagName and getElementsByTagName are two different functions.
+        - tagName is likely all caps because of the legacy version of html using all caps.
 
 
 Section 7: Website Project - A Shopping List - 3hr 20min
