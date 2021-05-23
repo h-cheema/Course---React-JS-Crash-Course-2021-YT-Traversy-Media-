@@ -215,4 +215,120 @@ Section 6: Event Delegation and Challenges - 1hr 1min
 
 
 Section 7: Website Project - A Shopping List - 3hr 20min
+
+    98. Building our website HTML
+        
+        - 
+
+    99. Coding the CSS for the header
+        
+        - 
+
+    100. Coding the CSS for the form and list section
+        
+        - 
+
+    101. DOM access methods, the forEach method, and nodes - quick recap
+        
+        - 
+
+    102. Removing items - the old school way
+        
+        - 
+
+    103. Removing items - using event bubbling and event delegation
+        
+        - 
+
+    104. Introduction to dealing with forms
+        
+        - 
+
+    105. Default behavior with forms and how to prevent the default behavior
+        
+        - 
+
+    106. Adding items to our list - creating elements dynamically
+        
+        - 
+
+    107. Adding items to our list - adding classes with the classList API
+        
+        - 
+
+    108. Hiding and un-hiding our shopping list
+        
+        - 
+
+    109. Recap of the different event listeners we've already dealt with
+        
+        - 
+
+    110. Accessing an <input> within a <form> element
+        
+        - 
+
+    111. What is the toLowerCase() method?
+        
+        - 
+
+    112. Accessing our <li> tags, and introduction to the Array.from() method
+        
+        - 
+
+    113. Introduction to the Array.from() method
+        
+        - 
+
+    114. How does Array.from() work - some practical examples
+        
+        - 
+
+    115. Using forEach() to loop through our groceries array
+        
+        - 
+
+    116. Introduction to indexOf()
+        
+        - 
+
+    117. Using indexOf() method with Arrays
+        
+        - 
+
+    118. Using indexOf() method with Strings
+        
+        - 
+
+    119. Finishing off our search functionality
+        
+        - 
+
+    120. IMPROVEMENT: clear the <input> text when the user clicks a button
+        
+        - 
+
+    121. IMPROVEMENT: I want you to add tabs
+        
+        - 
+
+    122. IMPROVEMENT: building our tabs (HTML + CSS)
+        
+        - 
+
+    123. What is the data* attribute?
+        
+        - 
+
+    124. Using the classList API to add dynamic classes to our heading tabs
+        
+        - 
+
+    125. IMPROVEMENT: Showing and hiding our panels when the heading tab is clicked
+        
+        - 
+
+    126. IMPROVEMENT: adding a button for our answer
+
+
 Section 8: Outro - 3min
