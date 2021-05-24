@@ -222,21 +222,18 @@ Section 7: Website Project - A Shopping List - 3hr 20min
             - Returns a node list of the li tags
             - Access it with groceryItem[index]
 
-    102. Removing items - the old school way
-        
-        - 
-
-    103. Removing items - using event bubbling and event delegation
-        
-        - 
-
     104. Introduction to dealing with forms
         
-        - 
+        - Submitting a form refreshes the page. This is not good for performance.
+            - This can be prevented by stopping the default behaviour.
 
     105. Default behavior with forms and how to prevent the default behavior
         
-        - 
+        - HTML default behaviours
+            - textbox, mouse wheel, checkbox, link
+        - These default behaviours can be turned off with preventDefault() on the event object
+            - Can be used on many elements.
+        - Can be used on a form submit button to prevent default then you can add your own behaviour.
 
     106. Adding items to our list - creating elements dynamically
         
