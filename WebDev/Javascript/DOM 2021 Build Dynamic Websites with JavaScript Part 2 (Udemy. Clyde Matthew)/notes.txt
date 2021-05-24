@@ -216,21 +216,11 @@ Section 6: Event Delegation and Challenges - 1hr 1min
 
 Section 7: Website Project - A Shopping List - 3hr 20min
 
-    98. Building our website HTML
-        
-        - 
-
-    99. Coding the CSS for the header
-        
-        - 
-
-    100. Coding the CSS for the form and list section
-        
-        - 
-
     101. DOM access methods, the forEach method, and nodes - quick recap
         
-        - 
+        - let groceryItem = document.querySelectorAll('#grocery-list li');
+            - Returns a node list of the li tags
+            - Access it with groceryItem[index]
 
     102. Removing items - the old school way
         

@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Shopping List</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div id="wrapper">
+
+            <!-- Section 1 -->
+            <header>
+                <div id="page-top">
+                    <h1 class="title">Shopaholic</h1>
+                    <p>My Shopping List</p>
+                    <!-- search -->
+                    <form action="" id="search-item">
+                        <input type="text" placeholder="Search items...">
+                        <div id="check">
+                            <label for="hide">Hide list</label>
+                            <input type="checkbox" id="hide">
+                        </div>
+                    </form>
+                </div>
+            </header>
+
+            <!-- Section 2 -->
+            <form action="" id="add-item">
+                <input type="text" placeholder="What would you like to buy?">
+                <button>Add</button>
+            </form>
+
+            <!-- Section 3 -->
+            <div id="grocery-list">
+                
+                <h2 class="title">Items To Buy</h2>
+                <ul>
+                    <li>
+                        <span class="item">Milk</span>
+                        <span class="delete">delete</span>
+                    </li>
+                    <li>
+                        <span class="item">Steak</span>
+                        <span class="delete">delete</span>
+                    </li>
+                    <li>
+                        <span class="item">Pizza</span>
+                        <span class="delete">delete</span>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
