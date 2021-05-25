@@ -235,17 +235,11 @@ Section 7: Website Project - A Shopping List - 3hr 20min
             - Can be used on many elements.
         - Can be used on a form submit button to prevent default then you can add your own behaviour.
 
-    106. Adding items to our list - creating elements dynamically
-        
-        - 
-
-    107. Adding items to our list - adding classes with the classList API
-        
-        - 
-
     108. Hiding and un-hiding our shopping list
         
-        - 
+        - Event type: change
+            - on available on some elements
+            - 
 
     109. Recap of the different event listeners we've already dealt with
         
