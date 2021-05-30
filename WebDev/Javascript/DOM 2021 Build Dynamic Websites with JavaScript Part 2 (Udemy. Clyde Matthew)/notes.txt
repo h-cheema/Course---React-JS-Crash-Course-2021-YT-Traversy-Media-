@@ -239,7 +239,6 @@ Section 7: Website Project - A Shopping List - 3hr 20min
         
         - Event type: change
             - on available on some elements
-            - 
 
     113. Introduction to the Array.from() method
         
@@ -248,11 +247,16 @@ Section 7: Website Project - A Shopping List - 3hr 20min
 
     114. How does Array.from() work - some practical examples
         
-        - 
+        - Array.from('hello') will create a list of characters.
+            - The array-like obj needs to have a length and indexed elements.
+
+        - Parameters
+            - Array.from(arrayLikeObj, map, this)
+                - map and this are optional.
 
     115. Using forEach() to loop through our groceries array
         
-        - 
+        - arrayName.forEach((grocery))
 
     116. Introduction to indexOf()
         

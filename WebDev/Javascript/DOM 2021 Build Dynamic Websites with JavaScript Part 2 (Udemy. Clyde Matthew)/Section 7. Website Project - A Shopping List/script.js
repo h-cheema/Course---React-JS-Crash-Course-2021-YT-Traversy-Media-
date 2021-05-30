@@ -13,6 +13,21 @@ SEARCH.addEventListener('keyup', (e) => {
 
     // Convert the groceries array to be able to use forEach method.
     let groceriesArray = Array.from(groceries);
+
+    // Loop through each grocery item
+    groceriesArray.forEach((grocery) => {
+
+        let groceryName = grocery.firstElementChild.textContent;
+
+        // Convert our text to lowercase
+        let groceryNameLower = groceryName.toLowerCase();
+
+        // Use indexOf to match item. Hide all others.
+        
+
+
+
+    });
 });
 
 
