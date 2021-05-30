@@ -276,25 +276,10 @@ Section 7: Website Project - A Shopping List - 3hr 20min
         - indexOf() == -1
             - index does not exist. Do not use indexOf() == false
 
-    119. Finishing off our search functionality
-        
-        - 
-
-    120. IMPROVEMENT: clear the <input> text when the user clicks a button
-        
-        - 
-
-    121. IMPROVEMENT: I want you to add tabs
-        
-        - 
-
-    122. IMPROVEMENT: building our tabs (HTML + CSS)
-        
-        - 
-
     123. What is the data* attribute?
         
-        - 
+        - Stores whatever data you want to an html element.
+        - element.dataset.[yourDataName]
 
     124. Using the classList API to add dynamic classes to our heading tabs
         
