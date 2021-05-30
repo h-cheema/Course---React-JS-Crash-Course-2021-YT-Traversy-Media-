@@ -18,9 +18,9 @@
 | Status | Course | Source | Instructor | Date Done |
 | :---: | :--- | :----- | :-----| :----- |
 | 🔶 | JavaScript: Understanding the Weird Parts | Udemy | Anthony Alicea |  |
-| 🔶 | DOM 2021 Build Dynamic Websites with JavaScript Part 1 | Udemy | Clyde Matthew |  |
+| ✔️ | DOM 2021 Build Dynamic Websites with JavaScript Part 1 | Udemy | Clyde Matthew | 2021.05.29 |
 | ✔️ | Advanced Javascript | Udemy | Asim Hussain | 2021/03/24 |
-| ✔️ | DOM 2021 Build Dynamic Websites with JavaScript Part 1 | Udemy | Clyde Matthew | 2021/03/17 |
+| ✔️ | DOM 2021 Build Dynamic Websites with JavaScript Part 1 | Udemy | Clyde Matthew | 2021.03.17 |
 | ✔️ | JavaScript ES6, ES7, ES8 | freeCodeCamp.org | freeCodeCamp.org | 2021/02/21|
 <br>
 
