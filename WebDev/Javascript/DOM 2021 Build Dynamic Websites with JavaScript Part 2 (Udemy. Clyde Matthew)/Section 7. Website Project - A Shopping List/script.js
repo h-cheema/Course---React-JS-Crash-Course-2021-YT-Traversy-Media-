@@ -23,8 +23,11 @@ SEARCH.addEventListener('keyup', (e) => {
         let groceryNameLower = groceryName.toLowerCase();
 
         // Use indexOf to match item. Hide all others.
-        
-
+        if (groceryNameLower.indexOf(text) == -1) {
+            grocery.style.display = 'none';
+        }else{
+            grocery.style.display = 'block';
+        }
 
 
     });

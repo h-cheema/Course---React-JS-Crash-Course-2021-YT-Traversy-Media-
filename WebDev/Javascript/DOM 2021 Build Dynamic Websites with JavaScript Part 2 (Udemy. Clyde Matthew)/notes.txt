@@ -260,15 +260,21 @@ Section 7: Website Project - A Shopping List - 3hr 20min
 
     116. Introduction to indexOf()
         
-        - 
+        - indexOf(searchItem, startingPoint)
+            - only exists for 2 data types: Arrays and Strings
 
-    117. Using indexOf() method with Arrays
-        
-        - 
+        - js array is a global object and can be accessed anywhere.
 
     118. Using indexOf() method with Strings
         
-        - 
+        - sentence = "Hello my friend and my buddy"
+            - setence.indexOf('my') = 6
+                - the word my starts at the 7th letter.
+            - setence.indexOf('my', 6 + 1) = 20
+                - the second parameter is the starting point
+
+        - indexOf() == -1
+            - index does not exist. Do not use indexOf() == false
 
     119. Finishing off our search functionality
         
