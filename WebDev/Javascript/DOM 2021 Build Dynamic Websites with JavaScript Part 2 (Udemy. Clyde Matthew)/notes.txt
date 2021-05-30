@@ -283,13 +283,5 @@ Section 7: Website Project - A Shopping List - 3hr 20min
 
     124. Using the classList API to add dynamic classes to our heading tabs
         
-        - 
-
-    125. IMPROVEMENT: Showing and hiding our panels when the heading tab is clicked
-        
-        - 
-
-    126. IMPROVEMENT: adding a button for our answer
-
-
-Section 8: Outro - 3min
+        - <li data-clicked="joke" class='active'> Food Joke </li>
+            - let dataAttribute = e.target.dataset.clicked;
