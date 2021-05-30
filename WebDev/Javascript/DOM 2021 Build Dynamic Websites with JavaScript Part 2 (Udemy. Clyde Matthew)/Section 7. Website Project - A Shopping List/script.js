@@ -1,3 +1,23 @@
+// ************ SEARCH FOR ITEMS ********
+const SEARCH = document.forms['search-item'].querySelector('input');
+
+// Add our event listener
+SEARCH.addEventListener('keyup', (e) => {
+
+    // Let's grab the user's text and convert text to lowercase method
+    let text = e.target.value.toLowerCase();
+
+    // Let's grab each li tag
+    let groceryList = document.querySelector('#grocery-list ul');
+    let groceries = groceryList.getElementsByTagName('li');
+
+    // Convert the groceries array to be able to use forEach method.
+    let groceriesArray = Array.from(groceries);
+});
+
+
+
+
 // ************ HIDE ITEMS ********
 let checkbox = document.querySelector('#hide');
 

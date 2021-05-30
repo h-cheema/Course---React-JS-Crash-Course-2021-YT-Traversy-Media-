@@ -241,25 +241,10 @@ Section 7: Website Project - A Shopping List - 3hr 20min
             - on available on some elements
             - 
 
-    109. Recap of the different event listeners we've already dealt with
-        
-        - 
-
-    110. Accessing an <input> within a <form> element
-        
-        - 
-
-    111. What is the toLowerCase() method?
-        
-        - 
-
-    112. Accessing our <li> tags, and introduction to the Array.from() method
-        
-        - 
-
     113. Introduction to the Array.from() method
         
-        - 
+        - Array.from(elementList)
+            - Creates an array from an iterable object like an html collection.
 
     114. How does Array.from() work - some practical examples
         
