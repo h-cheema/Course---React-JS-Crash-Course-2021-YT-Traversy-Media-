@@ -124,73 +124,101 @@ Section 3: Types and Operators - 1hr 18min
 Section 4: Objects and Functions
 
     30. Objects and the Dot (15min)
-    - 
+
+        - Accessing objects is similar to lua
+            - person['greeting'] = 'hello'
+                - person.greeting is 'hello'
+
+        - Left to right dot operator = associative operator
+
 
     31. Objects and Object Literals (11min)
-    - 
+    
+        - 
 
     32. Framework Aside: Faking Namespaces (8min)
-    - 
+    
+        - 
 
     33. JSON and Object Literals (7min)
-    - 
+    
+        - 
 
     34. Functions are Objects (8min)
-    - 
+    
+        - 
 
     35. Function Statements and Function Expressions (21min)
-    - 
+    
+        - 
 
     36. Conceptual Aside: By Value vs By Reference (16min)
-    - 
+    
+        - 
 
     37. Objects, Functions, and 'this' (21min)
-    - 
+    
+        - 
 
     38. Conceptual Aside: Arrays - Collections of Anything (6min)
-    - 
+    
+        - 
 
     39. 'arguments' and spread (12min)
-    - 
+    
+        - 
 
     40. Framework Aside: Function Overloading (5min)
-    - 
+    
+        - 
 
     41. Conceptual Aside: Syntax Parsers (2min)
-    - 
+    
+        - 
 
     42. Dangerous Aside: Automatic Semicolon Insertion (6min)
-    - 
+    
+        - 
 
     43. Framework Aside: Whitespace (4min)
-    - 
+    
+        - 
 
     44. Immediately Invoked Functions Expressions (IIFEs) (17min)
-    - 
+    
+        - 
 
     45. Framework Aside: IIFEs and Safe Code (8min)
-    - 
+    
+        - 
 
     46. Understanding Closures (11min)
-    - 
+    
+        - 
 
     47. Understanding Closures - Part 2 (19min)
-    - 
+    
+        - 
 
     48. Framework Aside: Function Factories (12min)
-    - 
+    
+        - 
 
     49. Closures and Callbacks (8min)
-    - 
+    
+        - 
 
     50. call(), apply(), and bind()  (21min))
-    - 
+    
+        - 
 
     51. Functional (Programming) (20min)
-    - 
+    
+        - 
 
     52. Functional Programming - Part 2 (8min)
-    - 
+    
+        - 
 
 
 Section 5: Object-Oriented Javascript and Prototypal Inheritance (40min)
