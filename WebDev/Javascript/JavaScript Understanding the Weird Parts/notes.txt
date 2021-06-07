@@ -145,17 +145,24 @@ Section 4: Objects and Functions
         - JS has built in functions to work with JSON.
             -> JSON.stringify(objectLiteral);
         
-
     34. Functions are Objects (8min)
-    
-        - 
+        - Functions are objects in js.
+        - First Class Functions: Anything you can do with a variable you can do with a function.
+        - You can attach variables and other functions to functions.
+        - Unamed functions are called anonymous functions.
 
     35. Function Statements and Function Expressions (21min)
-    
-        - 
+        - Expression is a unit of code that results in a value.
+            -> 1 + 2
+            -> a = 3 // = returns a value.
+            -> if (a === 2)
+                - if is a statement, a===2 is an expression.
+        - function greet() // Hoists function. Can be called before declaration.\
+        - var greet = function() // Set to undefined before being assigned its function value.
+            - Cannot be called before declaration.
+        - passing functions in parameters is part of functional programming.
 
     36. Conceptual Aside: By Value vs By Reference (16min)
-    
         - 
 
     37. Objects, Functions, and 'this' (21min)
