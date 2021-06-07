@@ -124,25 +124,27 @@ Section 3: Types and Operators - 1hr 18min
 Section 4: Objects and Functions
 
     30. Objects and the Dot (15min)
-
         - Accessing objects is similar to lua
             - person['greeting'] = 'hello'
                 - person.greeting is 'hello'
-
         - Left to right dot operator = associative operator
 
-
     31. Objects and Object Literals (11min)
-    
-        - 
+        - var person = {} is a literal, like lua.
 
     32. Framework Aside: Faking Namespaces (8min)
-    
-        - 
+        - Namespaces can be made with objects.
 
     33. JSON and Object Literals (7min)
-    
-        - 
+        - JS object notation is inspired by JSON
+        - Early on, data was stored as XML.
+            - This made data far larger than needed because of XML tags.
+            - JS object notation was much more efficient.
+        - In JSON, properties must be wrapped in quotes.
+        - Anything valid in JSON is valid in JS, but not vice versa.
+        - JS has built in functions to work with JSON.
+            -> JSON.stringify(objectLiteral);
+        
 
     34. Functions are Objects (8min)
     
