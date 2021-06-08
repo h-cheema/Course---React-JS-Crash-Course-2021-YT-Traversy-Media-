@@ -185,7 +185,11 @@ Section 4: Objects and Functions
 
 
     39. 'arguments' and spread (12min)    
-        - 
+        - arguements = parameters.
+        - keyword arguements is a special keyword in js
+        - func params work left to right.
+        - arguments will be deprecated soon and replaced with spread.
+        
 
 
     40. Framework Aside: Function Overloading (5min)    
