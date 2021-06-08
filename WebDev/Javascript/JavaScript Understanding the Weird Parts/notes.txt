@@ -181,7 +181,7 @@ Section 4: Objects and Functions
 
 
     38. Conceptual Aside: Arrays - Collections of Anything (6min)    
-        - 
+        - Arrays can hold functions.
 
 
     39. 'arguments' and spread (12min)    
