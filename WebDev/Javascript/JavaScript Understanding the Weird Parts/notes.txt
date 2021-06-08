@@ -129,11 +129,14 @@ Section 4: Objects and Functions
                 - person.greeting is 'hello'
         - Left to right dot operator = associative operator
 
+
     31. Objects and Object Literals (11min)
         - var person = {} is a literal, like lua.
 
+
     32. Framework Aside: Faking Namespaces (8min)
         - Namespaces can be made with objects.
+
 
     33. JSON and Object Literals (7min)
         - JS object notation is inspired by JSON
@@ -145,11 +148,13 @@ Section 4: Objects and Functions
         - JS has built in functions to work with JSON.
             -> JSON.stringify(objectLiteral);
         
+
     34. Functions are Objects (8min)
         - Functions are objects in js.
         - First Class Functions: Anything you can do with a variable you can do with a function.
         - You can attach variables and other functions to functions.
         - Unamed functions are called anonymous functions.
+
 
     35. Function Statements and Function Expressions (21min)
         - Expression is a unit of code that results in a value.
@@ -162,75 +167,78 @@ Section 4: Objects and Functions
             - Cannot be called before declaration.
         - passing functions in parameters is part of functional programming.
 
+
     36. Conceptual Aside: By Value vs By Reference (16min)
         - All objects are passed by reference.
         - Mutate: Can be changed.
             - Immutable = Cannot be changed.
         
-
     37. Objects, Functions, and 'this' (21min)
-    
+        - 'this' refers to something different based on where a function is called.
+        - a var funciton inside an obj function will point to Window instead of the obj.
+        -> var self = this
+            - Can be used to keep this consistent at the top scope of a object.
+
+
+    38. Conceptual Aside: Arrays - Collections of Anything (6min)    
         - 
 
-    38. Conceptual Aside: Arrays - Collections of Anything (6min)
-    
+
+    39. 'arguments' and spread (12min)    
         - 
 
-    39. 'arguments' and spread (12min)
-    
+
+    40. Framework Aside: Function Overloading (5min)    
         - 
 
-    40. Framework Aside: Function Overloading (5min)
-    
+
+    41. Conceptual Aside: Syntax Parsers (2min)    
         - 
 
-    41. Conceptual Aside: Syntax Parsers (2min)
-    
+
+    42. Dangerous Aside: Automatic Semicolon Insertion (6min)    
         - 
 
-    42. Dangerous Aside: Automatic Semicolon Insertion (6min)
-    
+
+    43. Framework Aside: Whitespace (4min)    
         - 
 
-    43. Framework Aside: Whitespace (4min)
-    
+
+    44. Immediately Invoked Functions Expressions (IIFEs) (17min)    
         - 
 
-    44. Immediately Invoked Functions Expressions (IIFEs) (17min)
-    
+
+    45. Framework Aside: IIFEs and Safe Code (8min)    
         - 
 
-    45. Framework Aside: IIFEs and Safe Code (8min)
-    
+
+    46. Understanding Closures (11min)    
         - 
 
-    46. Understanding Closures (11min)
-    
+
+    47. Understanding Closures - Part 2 (19min)    
         - 
 
-    47. Understanding Closures - Part 2 (19min)
-    
+
+    48. Framework Aside: Function Factories (12min)    
         - 
 
-    48. Framework Aside: Function Factories (12min)
-    
+
+    49. Closures and Callbacks (8min)    
         - 
 
-    49. Closures and Callbacks (8min)
-    
+
+    50. call(), apply(), and bind()  (21min))    
         - 
 
-    50. call(), apply(), and bind()  (21min))
-    
+
+    51. Functional (Programming) (20min)    
         - 
 
-    51. Functional (Programming) (20min)
-    
+
+    52. Functional Programming - Part 2 (8min)    
         - 
 
-    52. Functional Programming - Part 2 (8min)
-    
-        - 
 
 
 Section 5: Object-Oriented Javascript and Prototypal Inheritance (40min)
