@@ -172,7 +172,8 @@ Section 4: Objects and Functions
         - All objects are passed by reference.
         - Mutate: Can be changed.
             - Immutable = Cannot be changed.
-        
+
+
     37. Objects, Functions, and 'this' (21min)
         - 'this' refers to something different based on where a function is called.
         - a var funciton inside an obj function will point to Window instead of the obj.
@@ -184,12 +185,11 @@ Section 4: Objects and Functions
         - Arrays can hold functions.
 
 
-    39. 'arguments' and spread (12min)    
+    39. 'arguments' and spread (12min)
         - arguements = parameters.
         - keyword arguements is a special keyword in js
         - func params work left to right.
         - arguments will be deprecated soon and replaced with spread.
-        
 
 
     40. Framework Aside: Function Overloading (5min)    

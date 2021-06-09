@@ -8,7 +8,4 @@ function greet(fname, lname, lang, ...other) { // ...other is extra parameters.
         console.log('arg 0' + arguements[0])
     }
 
-
-
-
 }
