@@ -198,7 +198,10 @@ Section 4: Objects and Functions
 
 
     42. Dangerous Aside: Automatic Semicolon Insertion (6min)    
-        - 
+        - Js engine knows what the syntax should look like.
+        - It sees a newline char and says you can't go to next line yet, so it puts a semicolon.
+        - Auto insert semicolons can cause big problems in your code.
+        - Always put semicolons where needed.
 
 
     43. Framework Aside: Whitespace (4min)    
