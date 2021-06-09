@@ -226,8 +226,10 @@ Section 4: Objects and Functions
 
 
     46. Understanding Closures (11min)
+        - Closures are created by js engine.
+        - Closures ensure that variables can be found in the scope chain
+            - even after a function is popped off of the stack.
         - 
-
 
     47. Understanding Closures - Part 2 (19min)
         - 
