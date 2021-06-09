@@ -192,12 +192,9 @@ Section 4: Objects and Functions
         - arguments will be deprecated soon and replaced with spread.
 
 
-    40. Framework Aside: Function Overloading (5min)    
-        - 
-
-
     41. Conceptual Aside: Syntax Parsers (2min)    
-        - 
+        - Syntax parser goes through code character by character to check if the code follows rules.
+        - It can add code, like a semicolon where one is expected.
 
 
     42. Dangerous Aside: Automatic Semicolon Insertion (6min)    
