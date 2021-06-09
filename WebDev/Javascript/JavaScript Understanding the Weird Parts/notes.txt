@@ -205,6 +205,7 @@ Section 4: Objects and Functions
 
 
     43. Framework Aside: Whitespace (4min)    
+        - JS allows a lot of whitespaces
         - 
 
 
