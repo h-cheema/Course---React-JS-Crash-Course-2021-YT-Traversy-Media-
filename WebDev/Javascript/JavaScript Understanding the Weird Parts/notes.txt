@@ -206,11 +206,16 @@ Section 4: Objects and Functions
 
     43. Framework Aside: Whitespace (4min)    
         - JS allows a lot of whitespaces
-        - 
+        - You can make code more readable with white space.
 
 
     44. Immediately Invoked Functions Expressions (IIFEs) (17min)    
-        - 
+        - JS sees everything in parentheses as an expression
+            ->(function(name) {return 'Hello ' + name;}('John'));
+                - Classic IIFE. Invokes a function expression.
+                - Function wrapped in curly braces is not an expression like (1+2) and returns something.
+                - Expression is processed during runtime.
+        - Almost every major framework/lib uses IIFEs
 
 
     45. Framework Aside: IIFEs and Safe Code (8min)    
