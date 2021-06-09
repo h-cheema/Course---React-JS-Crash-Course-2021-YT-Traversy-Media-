@@ -219,23 +219,28 @@ Section 4: Objects and Functions
 
 
     45. Framework Aside: IIFEs and Safe Code (8min)    
+        - IIFEs sit inside their own execution context and not in the global execution context.
+            - This is what makes IIFEs so useful.
+        - Helps to make code reuseable and separate from the global execution context.
+        - You can pass in the window obj to affect the global exe context.
+
+
+    46. Understanding Closures (11min)
         - 
 
 
-    46. Understanding Closures (11min)    
+    47. Understanding Closures - Part 2 (19min)
         - 
 
 
-    47. Understanding Closures - Part 2 (19min)    
-        - 
-
-
-    48. Framework Aside: Function Factories (12min)    
+    48. Framework Aside: Function Factories (12min)
         - 
 
 
     49. Closures and Callbacks (8min)    
         - 
+
+
 
 
     50. call(), apply(), and bind()  (21min))    
