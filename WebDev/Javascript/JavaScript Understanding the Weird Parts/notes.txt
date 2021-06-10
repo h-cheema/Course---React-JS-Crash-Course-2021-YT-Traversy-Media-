@@ -232,7 +232,9 @@ Section 4: Objects and Functions
 
 
     47. Understanding Closures - Part 2 (19min)
-        - 
+        - Outer variable / free variable is an var you have access to outside of a function.
+        - You can use IIFEs to make temporary execution contexts where needed.
+            When returning a function, you can use IIFE to hold a var you need in its return value.
 
 
     48. Framework Aside: Function Factories (12min)
@@ -241,8 +243,6 @@ Section 4: Objects and Functions
 
     49. Closures and Callbacks (8min)    
         - 
-
-
 
 
     50. call(), apply(), and bind()  (21min))    

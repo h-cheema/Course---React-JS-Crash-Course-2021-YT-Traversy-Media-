@@ -12,12 +12,29 @@ function buildFunctions() {
     return arr;
 } // Function is popped off of stack.
 
-
 // i = 3 is still in the old buildFunctions's exeContext
-
 
 // All print out as 3 because that's what's in the bf execution context.
 var fs = buildFunctions()
 fs[0]();
 fs[1]();
 fs[2]();
+
+
+
+// Using IIFEs to resolve this issue
+function buildFunctions2() {
+    var arr = [];
+
+    for (let i = 0; i < 3; i++) {
+        arr.push(
+            (function(j) {
+                return function() {
+                    console.log(j)
+                }
+            }(i)) // Using an IIFE to immeadiately invoke a function
+        );
+    } // When exiting for loop, i = 3
+
+    return arr;
+} // Function is popped off of stack.
