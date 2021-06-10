@@ -238,11 +238,12 @@ Section 4: Objects and Functions
 
 
     48. Framework Aside: Function Factories (12min)
-        -   
+        - Func factories make and return functions.
+        - JS can have exe contexts embedded in other exe contexts. It keeps what it needs.
 
 
     49. Closures and Callbacks (8min)    
-        - 
+        - Ex: jquery events, setTimeout()
 
 
     50. call(), apply(), and bind()  (21min))    

@@ -20,7 +20,8 @@ var greeting = function(name) {
 console.log(greeting)
 
 
-// turns a function statement into a function expression (returns a value)
+// Turns a function statement into a function expression (returns a value)
+// JS sees everything in parentheses as an expression
 (function(name) {
     return 'Hello ' + name;
-})
+});
