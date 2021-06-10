@@ -238,7 +238,7 @@ Section 4: Objects and Functions
 
 
     48. Framework Aside: Function Factories (12min)
-        -  
+        -   
 
 
     49. Closures and Callbacks (8min)    
