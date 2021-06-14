@@ -247,7 +247,9 @@ Section 4: Objects and Functions
 
 
     50. call(), apply(), and bind()  (21min))    
-        - 
+        - call and apply both take 'this' as first arg
+        - call takes args like the regular function.
+        - apply takes in an array as second arg.
 
 
     51. Functional (Programming) (20min)    
