@@ -264,7 +264,8 @@ Section 4: Objects and Functions
 
 
     52. Functional Programming - Part 2 (8min)    
-        - 
+        - Framework: Underscore.js
+            - 
 
 
 
