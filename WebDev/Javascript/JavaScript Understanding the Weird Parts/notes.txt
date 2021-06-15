@@ -256,7 +256,11 @@ Section 4: Objects and Functions
 
 
     51. Functional (Programming) (20min)    
-        - 
+        - Requires first class functions.
+        - Passing functions as parameters.
+        - Can help to keep code clean, elegant and robust.
+        - Great power and reuseability.
+        - Better than just splitting up code.
 
 
     52. Functional Programming - Part 2 (8min)    
