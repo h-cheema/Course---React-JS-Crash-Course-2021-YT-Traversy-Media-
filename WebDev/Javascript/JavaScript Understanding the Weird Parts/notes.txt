@@ -213,7 +213,7 @@ Section 4: Objects and Functions
         - JS sees everything in parentheses as an expression
             ->(function(name) {return 'Hello ' + name;}('John'));
                 - Classic IIFE. Invokes a function expression.
-                - Function wrapped in curly braces is not an expression like (1+2) and returns something.
+                - Function wrapped in curly braces is an expression like (1+2) and returns something.
                 - Expression is processed during runtime.
         - Almost every major framework/lib uses IIFEs
 
@@ -265,23 +265,33 @@ Section 4: Objects and Functions
 
     52. Functional Programming - Part 2 (8min)    
         - Framework: Underscore.js
-            - 
 
 
 
 Section 5: Object-Oriented Javascript and Prototypal Inheritance (40min)
+    
 
     53. Conceptual Aside: Classical vs Prototypal Inheritance (5min)
-    - 
+        - Focuses on the creation of objects.
+        - Classical Inheritance
+            - Sharing methods and props of objects (like c# and java)
+            - Works and is not bad, but there are other approaches
+            - Has its own downsides
+                - You can end up with big trees that are hard to manage/are unpredictable.
+        - Prototypal
+            - simple, flexible, extensible, easier to understand.
+
 
     54. Understanding the Prototype (14min)
-    - 
+        - 
+
 
     55. Everything is an Object (or a primitive) (6min)
-    - 
+        - 
+
 
     56. Reflection and Extend (15min)
-    - 
+        - 
 
 
 Section 6: Building Objects (7min)
