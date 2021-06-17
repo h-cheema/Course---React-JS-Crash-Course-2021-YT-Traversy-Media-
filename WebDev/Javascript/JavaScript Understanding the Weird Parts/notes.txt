@@ -270,7 +270,6 @@ Section 4: Objects and Functions
 
 Section 5: Object-Oriented Javascript and Prototypal Inheritance (40min)
     
-
     53. Conceptual Aside: Classical vs Prototypal Inheritance (5min)
         - Focuses on the creation of objects.
         - Classical Inheritance
@@ -283,7 +282,8 @@ Section 5: Object-Oriented Javascript and Prototypal Inheritance (40min)
 
 
     54. Understanding the Prototype (14min)
-        - 
+        - Scope chain: where we have access to a variable
+        - Object proto chain: where we have access to a variable amongst a sequence of variables
 
 
     55. Everything is an Object (or a primitive) (6min)
