@@ -287,7 +287,8 @@ Section 5: Object-Oriented Javascript and Prototypal Inheritance (40min)
 
 
     55. Everything is an Object (or a primitive) (6min)
-        - 
+        - Anything not a primitive has a prototype.
+            - Except for the language's base object.
 
 
     56. Reflection and Extend (15min)
