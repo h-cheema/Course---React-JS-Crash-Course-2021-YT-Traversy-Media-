@@ -287,12 +287,19 @@ Section 5: Object-Oriented Javascript and Prototypal Inheritance (40min)
 
 
     55. Everything is an Object (or a primitive) (6min)
+        - Every object has a base.
         - Anything not a primitive has a prototype.
             - Except for the language's base object.
+                - Has properties and methods. All objects can access these methods.
+                    - Arrays also have a base array object with methods like push().
 
 
     56. Reflection and Extend (15min)
-        - 
+        - Reflection: Objects can look at themselves and change themselves.
+        - Extend: 
+            -> _.extend(john, jane, jim);
+                - Combines all objects and adds their properties to john.
+                - john will have jane's address and jim's last name since john doesn't have those.
 
 
 Section 6: Building Objects (7min)
