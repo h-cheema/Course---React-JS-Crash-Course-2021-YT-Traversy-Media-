@@ -307,6 +307,8 @@ Section 6: Building Objects (7min)
     57. Function Constructors, 'new', and the History of Javascript (16min)
         - js was named javascript to attract java users.
         - the keyword 'new' and classes was used to make js look like java.
+        - js doesn't have real classes like java and c++.
+        - making objects in js does have some problems but is ok for what it is.
 
     58. Function Constructors and '.prototype' (10min)
         - 
