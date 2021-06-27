@@ -309,9 +309,15 @@ Section 6: Building Objects (7min)
         - the keyword 'new' and classes was used to make js look like java.
         - js doesn't have real classes like java and c++.
         - making objects in js does have some problems but is ok for what it is.
+        
+        - new
+            - is an operator
+            - new creates an empty object
 
     58. Function Constructors and '.prototype' (10min)
-        - 
+        - Properties/variables should be set up in constructor.
+        - Functions should sit in the prototype of a constructor.
+        - Functions can be added any time after a consctructor is created by adding them to the prototype.
 
     59. Dangerous Aside: 'new' and functions (4min)
         - 
