@@ -305,6 +305,7 @@ Section 5: Object-Oriented Javascript and Prototypal Inheritance (40min)
 Section 6: Building Objects (7min)
 
     57. Function Constructors, 'new', and the History of Javascript (16min)
+
         - js was named javascript to attract java users.
         - the keyword 'new' and classes was used to make js look like java.
         - js doesn't have real classes like java and c++.
@@ -314,13 +315,20 @@ Section 6: Building Objects (7min)
             - is an operator
             - new creates an empty object
 
+
     58. Function Constructors and '.prototype' (10min)
+
         - Properties/variables should be set up in constructor.
         - Functions should sit in the prototype of a constructor.
         - Functions can be added any time after a consctructor is created by adding them to the prototype.
 
+
     59. Dangerous Aside: 'new' and functions (4min)
-        - 
+
+        - Forgetting to add 'new' to function constructors will cause an error.
+        - Convention is to use capital letter for function constructors.
+        - Linters can help with this.
+
 
     60. Conceptual Aside: Built-In Function Constructors (11min)
         - 
