@@ -310,7 +310,7 @@ Section 6: Building Objects (7min)
         - the keyword 'new' and classes was used to make js look like java.
         - js doesn't have real classes like java and c++.
         - making objects in js does have some problems but is ok for what it is.
-        
+
         - new
             - is an operator
             - new creates an empty object
@@ -331,7 +331,15 @@ Section 6: Building Objects (7min)
 
 
     60. Conceptual Aside: Built-In Function Constructors (11min)
-        - 
+
+        - funcs already in the js engine
+        - ready to use
+        -> a = new Number(2)
+          - String object, not primitive.
+          - String.prototype has functions of its own.
+          -> a.length is a property of the String prototype.
+        - Be careful not to override proto functions.
+
 
     61. Dangerous Aside: Built-In Function Constructors (4min)
         - 
